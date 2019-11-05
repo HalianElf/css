@@ -299,6 +299,7 @@
   background-color: #fff;
 }
 
+.AddNewMovieSearchResult\/searchResult\/1FdVg,
 .SeriesSearchResult-alternateTitle-21CfS,
 .SeriesSearchResult\/alternateTitle\/21CfS {
   color: #999;
@@ -3036,6 +3037,7 @@
   }
 } */
 
+.AddNewMovieSearchResult\/searchResult\/1FdVg,
 .AddNewSeriesSearchResult-searchResult-xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4,
 .AddNewSeriesSearchResult\/searchResult\/xR8dj,
@@ -3049,7 +3051,7 @@
   /* color: inherit;
   transition: background 500ms; */
 }
-
+.AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
   .AddNewSeriesSearchResult-searchResult-xR8dj:hover,
   .AddNewArtistSearchResult-searchResult-N5Vx4:hover,
   .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
@@ -3071,12 +3073,14 @@
   font-size: 36px;
 } */
 
+.AddNewMovieSearchResult\/year\/2WkUw,
 .AddNewSeriesSearchResult-year-2jW2b,
 .AddNewSeriesSearchResult\/year\/2jW2b {
   /* margin-left: 10px; */
   color: #999;
 }
 
+.AddNewMovieSearchResult\/alreadyExistsIcon\/1A5ZD,
 .AddNewSeriesSearchResult-alreadyExistsIcon-3Sovw,
 .AddNewSeriesSearchResult\/alreadyExistsIcon\/3Sovw {
   /* margin-left: 10px; */
