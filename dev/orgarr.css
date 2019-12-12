@@ -1,5 +1,6 @@
 /* THANKS TRONYX! */
 
+/* ============== MAIN PAGE ============== */
 body {
   background-color: #1b1a1a;
   color: #dce2ec !important;
@@ -33,10 +34,12 @@ body {
   color: #96a2b4 !important;
 }
 
+/* ======= MOVIES/SERIES/LIBRARY ======= */
 .SeriesIndexPoster-controls-prEIO,
 .SeriesIndexPoster\/controls\/prEIO,
 .ArtistIndexPoster-controls-17A8w,
 .ArtistIndexPoster\/controls\/17A8w,
+.MovieIndexPoster-controls-COwa9,
 .MovieIndexPoster\/controls\/COwa9 {
   background-color: #232323;
 }
@@ -47,6 +50,7 @@ body {
 .SeriesIndexPoster\/nextAiring\/1FZy6,
 .ArtistIndexPoster-title-38afV,
 .ArtistIndexPoster\/title\/38afV,
+.MovieIndexPoster-title-Umirt,
 .MovieIndexPoster\/title\/Umirt {
   background-color: #2d2c2c;
 }
