@@ -2318,7 +2318,8 @@
 
 .SeriesIndexPoster-title-263Pq,
 .SeriesIndexPoster\/title\/263Pq,
-.MovieIndexPoster\/title\/Umirt {
+.MovieIndexPoster\/title\/Umirt,
+.MovieIndexPoster-title-Umirt {
   /* overflow: hidden !important;
   max-width: 100%;
   text-overflow: ellipsis !important;
@@ -3038,6 +3039,8 @@
 } */
 
 .AddNewMovieSearchResult\/searchResult\/1FdVg,
+.AddNewMovieSearchResult-searchResult-1FdVg,
+.AddNewMovie-searchIconContainer-zNKEC,
 .AddNewSeriesSearchResult-searchResult-xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4,
 .AddNewSeriesSearchResult\/searchResult\/xR8dj,
@@ -3052,10 +3055,11 @@
   transition: background 500ms; */
 }
 .AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
-  .AddNewSeriesSearchResult-searchResult-xR8dj:hover,
-  .AddNewArtistSearchResult-searchResult-N5Vx4:hover,
-  .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
-  .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover {
+.AddNewMovieSearchResult-searchResult-1FdVg:hover,
+.AddNewSeriesSearchResult-searchResult-xR8dj:hover,
+.AddNewArtistSearchResult-searchResult-N5Vx4:hover,
+.AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
+.AddNewArtistSearchResult\/searchResult\/N5Vx4:hover {
     background-color: #444444;
     /* color: inherit;
     text-decoration: none; */
@@ -4815,6 +4819,7 @@
 
 .CalendarEvent-seriesTitle-3sg1o,
 .CalendarEvent\/seriesTitle\/3sg1o,
+.CalendarEvent-movieTitle-2-WAP,
 .CalendarEvent\/movieTitle\/2-WAP {
   color: #fff;
   /* font-size: 14px; */
@@ -6356,7 +6361,10 @@
 
 .ReleaseProfiles-center-114Qx,
 .ReleaseProfiles\/center\/114Qx,
-.Restrictions\/center\/3ngzk {
+.Restrictions\/center\/3ngzk,
+.Restrictions-center-3ngzk,
+.NetImports-center-3otL-,
+.NetImports\/center\/3otL- {
   /* display: inline-block;
   padding: 5px 20px 0; */
   border: 1px solid #2d2d2d;
@@ -6637,6 +6645,12 @@
   padding: 5px 20px 0; */
   border: 1px solid #2d2d2d;
   /* border-radius: 4px; */
+  background-color: #2d2d2d;
+}
+
+.CustomFormats-center-1w6Bw,
+.CustomFormats\/center\/1w6Bw {
+  border: 1px solid #2d2d2d;
   background-color: #2d2d2d;
 }
 
