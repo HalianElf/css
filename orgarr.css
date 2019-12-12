@@ -3044,6 +3044,7 @@
 .AddNewSeriesSearchResult-searchResult-xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4,
 .AddNewSeriesSearchResult\/searchResult\/xR8dj,
+.AddNewSeriesSearchResult\/underlay\/11FBP,
 .AddNewArtistSearchResult\/searchResult\/N5Vx4 {
   /* display: -webkit-flex;
   display: flex;
@@ -3059,6 +3060,10 @@
 .AddNewSeriesSearchResult-searchResult-xR8dj:hover,
 .AddNewArtistSearchResult-searchResult-N5Vx4:hover,
 .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
+.AddNewSeriesSearchResult-searchResult-xR8dj:hover,
+.AddNewArtistSearchResult-searchResult-N5Vx4:hover,
+.AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
+.AddNewSeriesSearchResult\/underlay\/11FBP:hover,
 .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover {
     background-color: #444444;
     /* color: inherit;
