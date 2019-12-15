@@ -42,3 +42,28 @@ body {
 .MovieIndexPoster-title-Umirt, .MovieIndexPoster\/title\/Umirt {
   background-color: #2d2c2c;
 }
+
+/* ======= MEDIA ITEM ======= */
+.SeriesDetailsSeason-season-3XIYa, .SeriesDetailsSeason\/season\/3XIYa,
+.ArtistDetailsSeason-albumType-3aBd-, .ArtistDetailsSeason\/albumType\/3aBd-,
+.AlbumDetailsMedium-medium-dqPTF, .AlbumDetailsMedium\/medium\/dqPTF {
+  border: 1px solid #1f1f1f;
+  background-color: #1f1f1f;
+}
+
+.SeriesDetailsSeason-collapseButtonContainer-trs6s, .SeriesDetailsSeason\/collapseButtonContainer\/trs6s,
+.ArtistDetailsSeason-collapseButtonContainer-1c4Kb, .ArtistDetailsSeason\/collapseButtonContainer\/1c4Kb,
+.AlbumDetailsMedium-collapseButtonContainer-33Y3Z, .AlbumDetailsMedium\/collapseButtonContainer\/33Y3Z {
+  border-top: 1px solid #2a2c2d;
+  background-color: #1f1f1f;
+}
+
+.SeriesDetailsSeason-episodes-2_O-g, .SeriesDetailsSeason\/episodes\/2_O-g,
+.ArtistDetailsSeason-albums-1kcYI, .ArtistDetailsSeason\/albums\/1kcYI,
+.AlbumDetailsMedium-tracks-3kD7G, .AlbumDetailsMedium\/tracks\/3kD7G {
+  border-top: 1px solid #2a2c2d;
+}
+
+.TableRow-row-33xJE:hover, .TableRow\/row\/33xJE:hover {
+  background-color: #2d2c2c;
+}
