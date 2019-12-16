@@ -68,7 +68,105 @@ body {
   border-top: 1px solid #2d2c2c;
 }
 
-
 .TableRow-row-33xJE:hover, .TableRow\/row\/33xJE:hover {
   background-color: #2d2c2c;
+}
+
+/* ======= POP-OUT WINDOWS ======= */
+.MovieDetails-tabList-2dYVV {
+  border-bottom: 1px solid #2d2c2c;
+}
+
+.Popover-title-326tA, .Popover\/title\/326tA {
+  border-bottom: 1px solid #ebebeb;
+  background-color: #212121;
+}
+
+.Tooltip-tooltip-3HJXy.Tooltip-default-2NTKh, .Tooltip\/tooltip\/3HJXy.Tooltip\/default\/2NTKh {
+  background-color: #212121;
+}
+
+.Tooltip-bottom-3Ewbi.Tooltip-default-2NTKh, .Tooltip\/bottom\/3Ewbi.Tooltip\/default\/2NTKh {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.ModalContent-modalContent--txrl, .ModalContent\/modalContent\/-txrl {
+  background-color: #1b1a1a;
+}
+
+.ModalHeader-modalHeader-gpcvG, .ModalHeader\/modalHeader\/gpcvG {
+  border-bottom: 1px solid #2d2c2c;
+}
+
+.ModalFooter-modalFooter-1N5Ku, .ModalFooter\/modalFooter\/1N5Ku {
+  border-top: 1px solid #2d2c2c;
+}
+
+.Button-default-2uiHU, .Button\/default\/2uiHU {
+  border-color: #2a2c2d;
+  background-color: #2a2c2d;
+  color: #dce2ec;
+}
+
+.Button-default-2uiHU:hover, .Button\/default\/2uiHU:hover {
+  border-color: #323232;
+  background-color: #323232;
+  color: #dce2ec;
+}
+
+.Input-input-2YWzR, .Input\/input\/2YWzR {
+  border: 0px solid #2a2c2d;
+  background-color: #2a2c2d;
+  color: #dce2ec;
+}
+
+.Input-input-2YWzR:focus, .Input\/input\/2YWzR:focus {
+  border-color: #2a2c2d;
+}
+
+.MenuItem-menuItem-zB-Up, .MenuItem\/menuItem\/zB-Up {
+  background-color: #2a2c2d;
+  color: #dce2ec;
+}
+
+.MenuItem-menuItem-zB-Up:hover, .MenuItem-menuItem-zB-Up:focus,
+.MenuItem\/menuItem\/zB-Up:hover, .MenuItem\/menuItem\/zB-Up:focus {
+  background-color: #323232;
+}
+
+.EnhancedSelectInput-enhancedSelect-MfnzY, .EnhancedSelectInput\/enhancedSelect\/MfnzY {
+  border: 1px solid #2a2c2d;
+  background-color: #2a2c2d;
+  color: #dce2ec;
+}
+
+.EnhancedSelectInput-options-3yy65, .EnhancedSelectInput\/options\/3yy65 {
+  border: 1px solid #2a2c2d;
+  background-color: #2a2c2d;
+}
+
+.EnhancedSelectInputOption-option-iwTsL:hover, .EnhancedSelectInputOption\/option\/iwTsL:hover {
+  background-color: #323232;
+}
+
+.EnhancedSelectInputOption-isSelected-1mRo2, .EnhancedSelectInputOption\/isSelected\/1mRo2 {
+  background-color: #2a2c2d;
+}
+
+.EnhancedSelectInputOption-isSelected-1mRo2:hover {
+  background-color: #323232;
+}
+
+.TagInput-internalInput-Jbb1T, .TagInput\/internalInput\/Jbb1T {
+  background-color: #2a2c2d;
+}
+
+.AutoSuggestInput-suggestionsContainerOpen-3TAB7 .AutoSuggestInput-suggestionsContainer-3MmlD,
+.AutoSuggestInput\/suggestionsContainerOpen\/3TAB7 .AutoSuggestInput\/suggestionsContainer\/3MmlD {
+  border: 1px solid #2a2c2d;
+  background-color: #2a2c2d;
+}
+
+.AutoSuggestInput-suggestionHighlighted-2BWyt, .AutoSuggestInput\/suggestionHighlighted\/2BWyt {
+  background-color: #323232;
 }
