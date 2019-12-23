@@ -78,7 +78,7 @@ body {
 }
 
 .Popover-title-326tA, .Popover\/title\/326tA {
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #2a2c2d;
   background-color: #212121;
 }
 
@@ -88,6 +88,10 @@ body {
 
 .Tooltip-bottom-3Ewbi.Tooltip-default-2NTKh, .Tooltip\/bottom\/3Ewbi.Tooltip\/default\/2NTKh {
   border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.Tooltip-left-3QgYj.Tooltip-default-2NTKh, .Tooltip\/left\/3QgYj.Tooltip\/default\/2NTKh {
+  border-left-color: #212121;
 }
 
 .ModalContent-modalContent--txrl, .ModalContent\/modalContent\/-txrl {
@@ -170,4 +174,10 @@ body {
 
 .AutoSuggestInput-suggestionHighlighted-2BWyt, .AutoSuggestInput\/suggestionHighlighted\/2BWyt {
   background-color: #323232;
+}
+
+.EpisodeDetailsModalContent-selectedTab-42EMp, .EpisodeDetailsModalContent\/selectedTab\/42EMp {
+  border-color: #2a2c2d;
+  background-color: #2a2c2d;
+  color: #dce2ec;
 }
