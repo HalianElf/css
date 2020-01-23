@@ -185,7 +185,8 @@ body {
 /* ======= ADD NEW ======= */
 .AddNewMovie-searchIconContainer-zNKEC, .AddNewMovie\/searchIconContainer\/zNKEC,
 .AddNewSeries-searchIconContainer-3QAm8, .AddNewSeries\/searchIconContainer\/3QAm8,
-.AddNewArtist-searchIconContainer-7ygSM, .AddNewArtist\/searchIconContainer\/7ygSM {
+.AddNewArtist-searchIconContainer-7ygSM, .AddNewArtist\/searchIconContainer\/7ygSM,
+.AddNewItem-searchIconContainer-2CBFJ {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
 }
@@ -193,17 +194,19 @@ body {
 .AddNewMovieSearchResult-searchResult-1FdVg, .AddNewMovieSearchResult\/searchResult\/1FdVg,
 .AddNewSeriesSearchResult-searchResult-xR8dj, .AddNewSeriesSearchResult\/searchResult\/xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4, .AddNewArtistSearchResult\/searchResult\/N5Vx4,
+.AddNewArtistSearchResult-searchResult-fxW3m,
 .AddNewSeriesSearchResult\/underlay\/11FBP,
 .AddNewMovieSearchResult-underlay-1h0bG,
-.AddNewArtistSearchResult-searchResult-fxW3m {
+.AddNewArtistSearchResult-underlay-3aVNi {
   background-color: #1f1f1f;
 }
 
 .AddNewMovieSearchResult-searchResult-1FdVg:hover, .AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
 .AddNewSeriesSearchResult-searchResult-xR8dj:hover, .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
 .AddNewArtistSearchResult-searchResult-N5Vx4:hover, .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
+.AddNewArtistSearchResult-searchResult-fxW3m:hover
 .AddNewSeriesSearchResult\/underlay\/11FBP:hover,
 .AddNewMovieSearchResult-underlay-1h0bG:hover,
-.AddNewArtistSearchResult-searchResult-fxW3m:hover {
+.AddNewArtistSearchResult-underlay-3aVNi:hover {
   background-color: #2a2c2d;
 }

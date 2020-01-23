@@ -3046,7 +3046,8 @@
 .AddNewSeriesSearchResult\/searchResult\/xR8dj,
 .AddNewSeriesSearchResult\/underlay\/11FBP,
 .AddNewArtistSearchResult\/searchResult\/N5Vx4,
-.AddNewMovieSearchResult-underlay-1h0bG {
+.AddNewMovieSearchResult-underlay-1h0bG,
+.AddNewArtistSearchResult-underlay-3aVNi {
   /* display: -webkit-flex;
   display: flex;
   margin: 20px 0;
@@ -3067,7 +3068,8 @@
 .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
 .AddNewSeriesSearchResult\/underlay\/11FBP:hover,
 .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
-.AddNewMovieSearchResult-underlay-1h0bG:hover {
+.AddNewMovieSearchResult-underlay-1h0bG:hover,
+.AddNewArtistSearchResult-underlay-3aVNi:hover {
     background-color: #444444;
     /* color: inherit;
     text-decoration: none; */
@@ -3114,7 +3116,8 @@
 .AddNewArtist-searchIconContainer-7ygSM,
 .AddNewSeries\/searchIconContainer\/3QAm8,
 .AddNewArtist\/searchIconContainer\/7ygSM,
-.AddNewMovie\/searchIconContainer\/zNKEC {
+.AddNewMovie\/searchIconContainer\/zNKEC,
+.AddNewItem-searchIconContainer-2CBFJ {
   /* width: 58px;
   height: 46px; */
   border: 0px solid rgba(0, 0, 0, .25);
