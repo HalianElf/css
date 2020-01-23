@@ -193,13 +193,15 @@ body {
 .AddNewMovieSearchResult-searchResult-1FdVg, .AddNewMovieSearchResult\/searchResult\/1FdVg,
 .AddNewSeriesSearchResult-searchResult-xR8dj, .AddNewSeriesSearchResult\/searchResult\/xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4, .AddNewArtistSearchResult\/searchResult\/N5Vx4,
-.AddNewSeriesSearchResult\/underlay\/11FBP {
+.AddNewSeriesSearchResult\/underlay\/11FBP,
+.AddNewMovieSearchResult-underlay-1h0bG {
   background-color: #1f1f1f;
 }
 
 .AddNewMovieSearchResult-searchResult-1FdVg:hover, .AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
 .AddNewSeriesSearchResult-searchResult-xR8dj:hover, .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
 .AddNewArtistSearchResult-searchResult-N5Vx4:hover, .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
-.AddNewSeriesSearchResult\/underlay\/11FBP:hover {
+.AddNewSeriesSearchResult\/underlay\/11FBP:hover,
+.AddNewMovieSearchResult-underlay-1h0bG:hover {
   background-color: #2a2c2d;
 }
