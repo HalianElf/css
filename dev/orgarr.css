@@ -194,7 +194,8 @@ body {
 .AddNewSeriesSearchResult-searchResult-xR8dj, .AddNewSeriesSearchResult\/searchResult\/xR8dj,
 .AddNewArtistSearchResult-searchResult-N5Vx4, .AddNewArtistSearchResult\/searchResult\/N5Vx4,
 .AddNewSeriesSearchResult\/underlay\/11FBP,
-.AddNewMovieSearchResult-underlay-1h0bG {
+.AddNewMovieSearchResult-underlay-1h0bG,
+.AddNewArtistSearchResult-searchResult-fxW3m {
   background-color: #1f1f1f;
 }
 
@@ -202,6 +203,7 @@ body {
 .AddNewSeriesSearchResult-searchResult-xR8dj:hover, .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
 .AddNewArtistSearchResult-searchResult-N5Vx4:hover, .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
 .AddNewSeriesSearchResult\/underlay\/11FBP:hover,
-.AddNewMovieSearchResult-underlay-1h0bG:hover {
+.AddNewMovieSearchResult-underlay-1h0bG:hover,
+.AddNewArtistSearchResult-searchResult-fxW3m:hover {
   background-color: #2a2c2d;
 }
