@@ -264,7 +264,7 @@ body {
 
 /* ======= IMPORT ======= */
 .FieldSet-legend-3x6NF, .FieldSet\/legend\/3x6NF {
-  border: 1px solid #2a2c2d;
+  border-bottom: 1px solid #2a2c2d;
   color: #dce2ec;
 }
 
@@ -274,12 +274,30 @@ body {
   border: 1px solid #2a2c2d;
 }
 
+.ImportSeriesSelectSeries-content-3oSDj, .ImportSeriesSelectSeries\/content\/3oSDj,
+.ImportMovieSelectMovie-content-fSTb8 {
+  border: 1px solid #1f1f1f;
+  background-color: #1f1f1f;
+}
+
+.ImportSeriesSearchResult-series-2BXMC:hover, .ImportSeriesSearchResult\/series\/2BXMC:hover,
+.ImportMovieSearchResult-movie-2kMrG:hover {
+  background-color: #2a2c2d;
+}
+
+.ImportSeriesSelectSeries-searchIconContainer-1wOES, .ImportSeriesSelectSeries\/searchIconContainer\/1wOES,
+.ImportMovieSelectMovie-searchIconContainer-2yf6b {
+  border: 1px solid #2a2c2d;
+  background-color: #2a2c2d;
+}
+
 /* ======= SEASON PASS/ALBUM STUDIO ======= */
 .SeasonPassSeason-season-2FWuT, .SeasonPassSeason\/season\/2FWuT,
 .AlbumStudioAlbum-albumType-3QdT4, .AlbumStudioAlbum\/albumType\/3QdT4,
 .AlbumStudioAlbum-album-mOsjl, .AlbumStudioAlbum\/album\/mOsjl {
   background-color: #323232;
   border: 1px solid #323232;
+  color: #dce2ec;
 }
 
 .SeasonPassSeason-episodes-N99zs, .SeasonPassSeason\/episodes\/N99zs,
