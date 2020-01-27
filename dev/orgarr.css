@@ -29,6 +29,14 @@ body {
   color: #96a2b4 !important;
 }
 
+.OverlayScroller-thumb-1Lhfi, .OverlayScroller\/thumb\/1Lhfi {
+  background-color: #2d2c2c;
+}
+
+.OverlayScroller-thumb-1Lhfi:hover, .OverlayScroller\/thumb\/1Lhfi:hover {
+  background-color: #323232;
+}
+
 /* ======= MOVIES/SERIES/LIBRARY ======= */
 .SeriesIndexPoster-controls-prEIO, .SeriesIndexPoster\/controls\/prEIO,
 .ArtistIndexPoster-controls-17A8w, .ArtistIndexPoster\/controls\/17A8w,
@@ -41,6 +49,36 @@ body {
 .ArtistIndexPoster-title-38afV, .ArtistIndexPoster\/title\/38afV,
 .MovieIndexPoster-title-Umirt, .MovieIndexPoster\/title\/Umirt {
   background-color: #2d2c2c;
+}
+
+.PageContentFooter-contentFooter-3ODMj, .PageContentFooter\/contentFooter\/3ODMj {
+  background-color: #1b1a1a;
+}
+
+.PageJumpBarItem-jumpBarItem-3F58I, .PageJumpBarItem\/jumpBarItem\/3F58I {
+  border: 1px solid #2d2c2c
+}
+
+/* TABLE VIEW */
+.VirtualTableRow-row-2-JS9:hover, .VirtualTableRow\/row\/2-JS9:hover {
+  background-color: #232323;
+}
+
+.ProgressBar-container-14z4A, .ProgressBar\/container\/14z4A {
+  background-color: #323232;
+}
+
+/* OVERVIEW VIEW */
+.SeriesIndexOverview-link-1i54B, .SeriesIndexOverview\/link\/1i54B,
+.MovieIndexOverview-link-ubiA0,
+.ArtistIndexOverview-link-1Ry9u {
+  color: #dce2ec;
+}
+
+.SeriesIndexOverview-link-1i54B:hover, .SeriesIndexOverview\/link\/1i54B:hover,
+.MovieIndexOverview-link-ubiA0:hover,
+.ArtistIndexOverview-link-1Ry9u:hover {
+  color: #dce2ec;
 }
 
 /* ======= MEDIA ITEM ======= */
@@ -182,6 +220,17 @@ body {
   color: #dce2ec;
 }
 
+.TableOptionsColumn-column-2H7ic, .TableOptionsColumn\/column\/2H7ic {
+  background-color: #212121;
+  border: 1px solid #212121;
+}
+
+.CheckInput-input-283j3, .CheckInput\/input\/283j3 {
+  background-color: #323232;
+  border: 1px solid #323232;
+}
+
+
 /* ======= ADD NEW ======= */
 .AddNewMovie-searchIconContainer-zNKEC, .AddNewMovie\/searchIconContainer\/zNKEC,
 .AddNewSeries-searchIconContainer-3QAm8, .AddNewSeries\/searchIconContainer\/3QAm8,
@@ -197,7 +246,8 @@ body {
 .AddNewArtistSearchResult-searchResult-fxW3m,
 .AddNewSeriesSearchResult\/underlay\/11FBP,
 .AddNewMovieSearchResult-underlay-1h0bG,
-.AddNewArtistSearchResult-underlay-3aVNi {
+.AddNewArtistSearchResult-underlay-3aVNi,
+.AddNewAlbumSearchResult-underlay-2Egnf {
   background-color: #1f1f1f;
 }
 
@@ -207,6 +257,49 @@ body {
 .AddNewArtistSearchResult-searchResult-fxW3m:hover
 .AddNewSeriesSearchResult\/underlay\/11FBP:hover,
 .AddNewMovieSearchResult-underlay-1h0bG:hover,
-.AddNewArtistSearchResult-underlay-3aVNi:hover {
+.AddNewArtistSearchResult-underlay-3aVNi:hover,
+.AddNewAlbumSearchResult-underlay-2Egnf:hover {
+  background-color: #2a2c2d !important;
+}
+
+/* ======= IMPORT ======= */
+.FieldSet-legend-3x6NF, .FieldSet\/legend\/3x6NF {
+  border: 1px solid #2a2c2d;
+  color: #dce2ec;
+}
+
+.ImportSeriesSelectSeries-button-3CL3L, .ImportSeriesSelectSeries\/button\/3CL3L,
+.ImportMovieSelectMovie-button-1dL1Z {
   background-color: #2a2c2d;
+  border: 1px solid #2a2c2d;
+}
+
+/* ======= SEASON PASS/ALBUM STUDIO ======= */
+.SeasonPassSeason-season-2FWuT, .SeasonPassSeason\/season\/2FWuT,
+.AlbumStudioAlbum-albumType-3QdT4, .AlbumStudioAlbum\/albumType\/3QdT4,
+.AlbumStudioAlbum-album-mOsjl, .AlbumStudioAlbum\/album\/mOsjl {
+  background-color: #323232;
+  border: 1px solid #323232;
+}
+
+.SeasonPassSeason-episodes-N99zs, .SeasonPassSeason\/episodes\/N99zs,
+.AlbumStudioAlbum-tracks-14O0r, .AlbumStudioAlbum\/tracks\/14O0r {
+  background-color: #4c5667;
+  color: #dce2ec;
+}
+
+.SeasonPassSeason-allEpisodes-1zGja, .SeasonPassSeason\/allEpisodes\/1zGja,
+.AlbumStudioAlbum-allTracks-1KGPc, .AlbumStudioAlbum\/allTracks\/1KGPc {
+  background-color: #53E69D;
+  color: #323232;
+}
+
+.AlbumStudioAlbum-missingWanted-1jEbu, .AlbumStudioAlbum\/missingWanted\/1jEbu {
+	background-color: #ff7676;
+  color: #323232;
+}
+
+/* ======= RADARR DISCOVER/LISTS ======= */
+.AddListMovieOverview-container-1O7bo:hover .AddListMovieOverview-content-1orZ3 {
+  background-color: #232323;
 }
