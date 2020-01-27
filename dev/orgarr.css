@@ -325,3 +325,54 @@ body {
 .AddListMovieOverview-container-1O7bo:hover .AddListMovieOverview-content-1orZ3 {
   background-color: #232323;
 }
+
+/* ======= CALENDAR ======= */
+.DayOfWeek-dayOfWeek-1iw4D, .DayOfWeek\/dayOfWeek\/1iw4D {
+  background-color: #2a2c2d;
+}
+
+.CalendarDay-isToday-1rFJO, .CalendarDay\/isToday\/1rFJO {
+  background-color: #212121;
+}
+
+.CalendarDay-day-2TMXA, .CalendarDay\/day\/2TMXA {
+  border-bottom: 1px solid #2a2c2d;
+  border-left: 1px solid #2a2c2d;
+}
+
+.CalendarDay-dayOfMonth-2CzdW, .CalendarDay\/dayOfMonth\/2CzdW {
+  border-bottom: 1px solid #2a2c2d;
+}
+
+.CalendarDays-days-girjM, .CalendarDays\/days\/girjM {
+  border-right: 1px solid #2a2c2d;
+}
+
+.DayOfWeek-isToday-SozUU, .DayOfWeek\/isToday\/SozUU {
+  background-color: #212121;
+}
+
+.CalendarEvent-event-3Uyb9, .CalendarEvent\/event\/3Uyb9 {
+  border-right: 1px solid #2a2c2d;
+  border-bottom: 1px solid #2a2c2d;
+  border-top: 1px solid #2a2c2d;
+}
+
+.CalendarEvent-seriesTitle-3sg1o, .CalendarEvent\/seriesTitle\/3sg1o,
+.CalendarEvent-movieTitle-2-WAP, .CalendarEvent\/movieTitle\/2-WAP {
+  color: #dce2ec;
+}
+
+.CalendarEvent-episodeInfo-IWdbW, .CalendarEvent\/episodeInfo\/IWdbW,
+.CalendarEvent-airTime-3Wzho, .CalendarEvent\/airTime\/3Wzho,
+.CalendarEvent-movieInfo-2LF5- {
+  color: #96a2b4;
+}
+
+.AgendaEvent-event-2a83A, .AgendaEvent\/event\/2a83A {
+  border-bottom: 1px solid #2d2c2c;
+}
+
+.AgendaEvent-event-2a83A:hover, .AgendaEvent\/event\/2a83A:hover {
+  background-color: #232323;
+}
