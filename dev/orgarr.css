@@ -17,7 +17,7 @@ body {
 }
 
 .PageSidebarItem-isActiveParentLink-2uxKf, .PageSidebarItem\/isActiveParentLink\/2uxKf {
-  background-color: #1c1c1c;
+  background-color: #2d2c2c;
 }
 
 .PageToolbar-toolbar-1Lo1N, .PageToolbar\/toolbar\/1Lo1N {
@@ -35,6 +35,20 @@ body {
 
 .OverlayScroller-thumb-1Lhfi:hover, .OverlayScroller\/thumb\/1Lhfi:hover {
   background-color: #323232;
+}
+
+.SeriesSearchInput\/containerOpen\/3F8xe .SeriesSearchInput\/seriesContainer\/2yDTR,
+.MovieSearchInput-containerOpen-3c93F .MovieSearchInput-movieContainer-3FWAq,
+.ArtistSearchInput-containerOpen-OZAuD .ArtistSearchInput-artistContainer-331xe {
+  border: 1px solid #2d2c2c;
+  background-color: #2d2c2c;
+  color: #dce2ec;
+}
+
+.SeriesSearchInput\/input\/2CZrq,
+.MovieSearchInput-input-2j6jL,
+.ArtistSearchInput-input-1CuLx {
+  border-bottom: solid 1px #323232;
 }
 
 /* ======= MOVIES/SERIES/LIBRARY ======= */
