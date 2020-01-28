@@ -410,7 +410,7 @@ body {
     background-color: #232323;
 }
 
-/* PROFILES/INDEXERS/DOWNLOAD CLIENTS/CONNECT */
+/* PROFILES/CUSTOM FORMATS/INDEXERS/DOWNLOAD CLIENTS/LIST/CONNECT */
 .Card-card-1iGZk, .Card\/card\/1iGZk {
   background-color: #212121;
   box-shadow: 0 0 10px 1px #00000060;
@@ -431,7 +431,11 @@ body {
 .ReleaseProfiles-center-114Qx, .ReleaseProfiles\/center\/114Qx,
 .Indexers-center-11Csq, .Indexers\/center\/11Csq,
 .DownloadClients-center-FvACx, .DownloadClients\/center\/FvACx,
-.Notifications-center-8iwmy, .Notifications\/center\/8iwmy {
+.Notifications-center-8iwmy, .Notifications\/center\/8iwmy,
+.CustomFormats-center-1w6Bw, .CustomFormats\/center\/1w6Bw,
+.NetImports-center-3otL-, .NetImports\/center\/3otL-,
+.MetadataProfiles-center-dOatB, .MetadataProfiles\/center\/dOatB,
+.ImportLists-center-17Qdu, .ImportLists\/center\/17Qdu {
   border: none;
   background-color: #212121;
 }
@@ -447,4 +451,8 @@ body {
 
 .QualityDefinition-qualityDefinition-Ouk7S, .QualityDefinition\/qualityDefinition\/Ouk7S {
   border-top: 1px solid #2a2c2d;
+}
+
+.DelayProfile-delayProfile-4BQz_, .DelayProfile\/delayProfile\/4BQz_ {
+  border-bottom: 1px solid #2a2c2d;
 }
