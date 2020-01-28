@@ -258,12 +258,12 @@ body {
 .AddNewMovieSearchResult-searchResult-1FdVg:hover, .AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
 .AddNewSeriesSearchResult-searchResult-xR8dj:hover, .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
 .AddNewArtistSearchResult-searchResult-N5Vx4:hover, .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
-.AddNewArtistSearchResult-searchResult-fxW3m:hover
+.AddNewArtistSearchResult-searchResult-fxW3m:hover,
 .AddNewSeriesSearchResult\/underlay\/11FBP:hover,
 .AddNewMovieSearchResult-underlay-1h0bG:hover,
 .AddNewArtistSearchResult-underlay-3aVNi:hover,
 .AddNewAlbumSearchResult-underlay-2Egnf:hover {
-  background-color: #2a2c2d !important;
+  background-color: #2a2c2d;
 }
 
 /* ======= IMPORT ======= */
