@@ -376,3 +376,75 @@ body {
 .AgendaEvent-event-2a83A:hover, .AgendaEvent\/event\/2a83A:hover {
   background-color: #232323;
 }
+
+/* ======= SETTINGS ======= */
+.Settings-link-tvjY0, .Settings\/link\/tvjY0 {
+  border-bottom: none;
+  color: #ffffff;
+}
+
+.Settings-summary-3KPAv, .Settings\/summary\/3KPAv {
+  color: #96a2b4;
+}
+
+/* MEDIA MANAGEMENT */
+.NamingOption-option-giCGd, .NamingOption\/option\/giCGd {
+  border: 1px solid #2a2c2d;
+}
+
+.NamingOption-token-1y5bz, .NamingOption\/token\/1y5bz {
+  background-color: #2a2c2d;
+}
+
+.NamingOption-example-RNR6x, .NamingOption\/example\/RNR6x {
+  background-color: #1f1f1f;
+}
+
+.NamingOption-option-giCGd:hover .NamingOption-token-1y5bz,
+.NamingOption\/option\/giCGd:hover .NamingOption\/token\/1y5bz {
+  background-color: #323232;
+}
+
+.NamingOption-option-giCGd:hover .NamingOption-example-RNR6x,
+.NamingOption\/option\/giCGd:hover .NamingOption\/example\/RNR6x {
+    background-color: #232323;
+}
+
+/* PROFILES/INDEXERS/DOWNLOAD CLIENTS/CONNECT */
+.Card-card-1iGZk, .Card\/card\/1iGZk {
+  background-color: #212121;
+  box-shadow: 0 0 10px 1px #00000060;
+  color: #dce2ec;
+}
+
+.QualityProfiles-addQualityProfile-2U2Io, .QualityProfiles\/addQualityProfile\/2U2Io,
+.LanguageProfiles-addLanguageProfile-3ic6m, .LanguageProfiles\/addLanguageProfile\/3ic6m,
+.ReleaseProfiles-addReleaseProfile-1SsDM, .ReleaseProfiles\/addReleaseProfile\/1SsDM,
+.Indexers-addIndexer-2QuUZ, .Indexers\/addIndexer\/2QuUZ,
+.DownloadClients-addDownloadClient-3wo5E, .DownloadClients\/addDownloadClient\/3wo5E,
+.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5 {
+  background-color: #212121;
+}
+
+.QualityProfiles-center-1iiKm, .QualityProfiles\/center\/1iiKm,
+.LanguageProfiles-addLanguageProfile-3ic6m, .LanguageProfiles\/addLanguageProfile\/3ic6m,
+.ReleaseProfiles-center-114Qx, .ReleaseProfiles\/center\/114Qx,
+.Indexers-center-11Csq, .Indexers\/center\/11Csq,
+.DownloadClients-center-FvACx, .DownloadClients\/center\/FvACx,
+.Notifications-center-8iwmy, .Notifications\/center\/8iwmy {
+  border: none;
+  background-color: #212121;
+}
+
+/* PROFILES */
+.QualityDefinition-bar-LlTjA:nth-child(odd), .QualityDefinition\/bar\/LlTjA:nth-child(odd) {
+  background-color: #323232;
+}
+
+.QualityDefinition-handle-3wp-k, .QualityDefinition\/handle\/3wp-k {
+  background-color: #1f1f1f;
+}
+
+.QualityDefinition-qualityDefinition-Ouk7S, .QualityDefinition\/qualityDefinition\/Ouk7S {
+  border-top: 1px solid #2a2c2d;
+}
