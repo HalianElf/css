@@ -124,6 +124,10 @@ body {
   background-color: #2d2c2c;
 }
 
+.MovieCreditPoster-title-EGksL, .MovieCreditPoster\/title\/EGksL {
+  background-color: #2d2c2c;
+}
+
 /* ======= POP-OUT WINDOWS ======= */
 .MovieDetails-tabList-2dYVV {
   border-bottom: 1px solid #2d2c2c;
@@ -248,6 +252,9 @@ body {
   border: 1px solid #323232;
 }
 
+.EpisodeSummary-filesHeader-2_Kgn, .EpisodeSummary\/filesHeader\/2_Kgn {
+  border-bottom: 1px solid #2d2c2c;
+}
 
 /* ======= ADD NEW ======= */
 .AddNewMovie-searchIconContainer-zNKEC, .AddNewMovie\/searchIconContainer\/zNKEC,
