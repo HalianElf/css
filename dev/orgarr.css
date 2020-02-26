@@ -477,3 +477,25 @@ body {
 .DelayProfile-delayProfile-4BQz_, .DelayProfile\/delayProfile\/4BQz_ {
   border-bottom: 1px solid #2a2c2d;
 }
+
+.QualityProfileItem-qualityProfileItem-VFp-W, .QualityProfileItem\/qualityProfileItem\/VFp-W,
+.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5, .QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5 {
+  background: #2a2c2d;
+  border: 1px solid #2a2c2d;
+}
+
+.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5.QualityProfileItemGroup-editGroups-2KzDp,
+.QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5.QualityProfileItemGroup\/editGroups\/2KzDp,
+.LanguageProfileItem-languageProfileItem-18XGg, .LanguageProfileItem\/languageProfileItem\/18XGg {
+  background: #1f1f1f;
+}
+
+.KeyValueListInputItem-itemContainer-2g1bS, .KeyValueListInputItem\/itemContainer\/2g1bS {
+  border-bottom: none;
+}
+
+.KeyValueListInputItem-keyInput-3YYEs, .KeyValueListInputItem\/keyInput\/3YYEs,
+.KeyValueListInputItem-valueInput-3zlQA, .KeyValueListInputItem\/valueInput\/3zlQA {
+  background: transparent;
+  color: #dce2ec;
+}
