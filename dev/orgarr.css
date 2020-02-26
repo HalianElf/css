@@ -29,11 +29,13 @@ body {
   color: #96a2b4 !important;
 }
 
-.OverlayScroller-thumb-1Lhfi, .OverlayScroller\/thumb\/1Lhfi {
+.OverlayScroller-thumb-1Lhfi, .OverlayScroller\/thumb\/1Lhfi,
+.Scroller-scroller-26MBT::-webkit-scrollbar-thumb, .Scroller\/scroller\/26MBT::-webkit-scrollbar-thumb {
   background-color: #2d2c2c;
 }
 
-.OverlayScroller-thumb-1Lhfi:hover, .OverlayScroller\/thumb\/1Lhfi:hover {
+.OverlayScroller-thumb-1Lhfi:hover, .OverlayScroller\/thumb\/1Lhfi:hover,
+.Scroller-scroller-26MBT:hover::-webkit-scrollbar-thumb, .Scroller\/scroller\/26MBT:hover::-webkit-scrollbar-thumb {
   background-color: #323232;
 }
 
@@ -456,7 +458,9 @@ body {
 .CustomFormats-center-1w6Bw, .CustomFormats\/center\/1w6Bw,
 .NetImports-center-3otL-, .NetImports\/center\/3otL-,
 .MetadataProfiles-center-dOatB, .MetadataProfiles\/center\/dOatB,
-.ImportLists-center-17Qdu, .ImportLists\/center\/17Qdu {
+.ImportLists-center-17Qdu, .ImportLists\/center\/17Qdu,
+.EditCustomFormatModalContent-center-3QU87, .EditCustomFormatModalContent\/center\/3QU87,
+.Restrictions-center-3ngzk, .Restrictions\/center\/3ngzk {
   border: none;
   background-color: #212121;
 }
@@ -479,7 +483,8 @@ body {
 }
 
 .QualityProfileItem-qualityProfileItem-VFp-W, .QualityProfileItem\/qualityProfileItem\/VFp-W,
-.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5, .QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5 {
+.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5, .QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5,
+.QualityProfileFormatItem-qualityProfileFormatItem-19XrK, .QualityProfileFormatItem\/qualityProfileFormatItem\/19XrK {
   background: #2a2c2d;
   border: 1px solid #2a2c2d;
 }
