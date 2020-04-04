@@ -400,6 +400,11 @@ body {
   background-color: #232323;
 }
 
+/* ======= WANTED ======= */
+.SelectSeriesRow-series-1SgeZ, .SelectSeriesRow\/series\/1SgeZ {
+  border-bottom: 1px solid #2d2c2c;
+}
+
 /* ======= SETTINGS ======= */
 .Settings-link-tvjY0, .Settings\/link\/tvjY0 {
   border-bottom: none;
