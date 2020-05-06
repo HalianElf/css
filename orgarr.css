@@ -318,6 +318,10 @@ body {
   background-color: #2a2c2d;
 }
 
+.SelectSeasonRow-season-HWSg2, .SelectSeasonRow\/season\/HWSg2 {
+  border: 1px solid #2a2c2d;
+}
+
 /* ======= SEASON PASS/ALBUM STUDIO ======= */
 .SeasonPassSeason-season-2FWuT, .SeasonPassSeason\/season\/2FWuT,
 .AlbumStudioAlbum-albumType-3QdT4, .AlbumStudioAlbum\/albumType\/3QdT4,
