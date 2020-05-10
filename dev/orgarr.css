@@ -130,6 +130,16 @@ body {
   background-color: #2d2c2c;
 }
 
+.MovieFileEditorTable-container-3VYDG {
+  background-color: #1b1a1a;
+  border: 0;
+}
+
+.ExtraFileTable-container-1NM2r {
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+}
+
 /* ======= POP-OUT WINDOWS ======= */
 .MovieDetails-tabList-2dYVV {
   border-bottom: 1px solid #2d2c2c;
