@@ -75,6 +75,10 @@ body {
   border: 1px solid #2d2c2c
 }
 
+.PageJumpBarItem-jumpBarItem-3F58I:last-child, .PageJumpBarItem\/jumpBarItem\/3F58I:last-child {
+  border-left: 1px solid #2d2c2c
+}
+
 /* TABLE VIEW */
 .VirtualTableRow-row-2-JS9:hover, .VirtualTableRow\/row\/2-JS9:hover {
   background-color: #232323;
