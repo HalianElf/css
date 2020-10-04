@@ -344,6 +344,15 @@ body {
   background-color: #1f1f1f;
 }
 
+/* ======= DISCOVER ======= */
+.DiscoverMovieOverview-link-3ukU2, .DiscoverMovieOverview\/link\/3ukU2 {
+  color: #dce2ec;
+}
+
+.DiscoverMovieOverview-link-3ukU2:hover, .DiscoverMovieOverview\/link\/3ukU2:hover {
+  color: #ffffff;
+}
+
 /* ======= SEASON PASS/ALBUM STUDIO ======= */
 .SeasonPassSeason-season-2FWuT, .SeasonPassSeason\/season\/2FWuT,
 .AlbumStudioAlbum-albumType-3QdT4, .AlbumStudioAlbum\/albumType\/3QdT4,
@@ -434,6 +443,10 @@ body {
 /* ======= SETTINGS ======= */
 .Settings-link-tvjY0, .Settings\/link\/tvjY0 {
   border-bottom: none;
+  color: #dce2ec;
+}
+
+.Settings-link-tvjY0:hover, .Settings\/link\/tvjY0:hover {
   color: #ffffff;
 }
 
