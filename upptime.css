@@ -32,13 +32,13 @@ article {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 article.down {
-  border-left: 0.2rem solid var(--color-danger);
+  border-left: 0.4rem solid var(--color-danger);
 }
 article.degraded {
-  border-left: 0.2rem solid var(--color-warn) !important;
+  border-left: 0.4rem solid var(--color-warn) !important;
 }
 article.up {
-  border-left: 0.2rem solid var(--color-success);
+  border-left: 0.4rem solid var(--color-success);
 }
 
 .tag.closed,
