@@ -40,6 +40,9 @@ article.degraded {
 article.up {
   border-left: 0.4rem solid var(--color-success);
 }
+article.svelte-uyma2x.svelte-uyma2x.svelte-uyma2x {
+  background-blend-mode: luminosity;
+}
 
 .tag.closed,
 .tag.up {
