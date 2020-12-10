@@ -67,7 +67,7 @@ article.svelte-uyma2x.svelte-uyma2x.svelte-uyma2x {
   article {
     background-color: var(--color-dark1);
   }
-  nav.svelte-1pyc7i4.svelte-1pyc7i4 {
+  nav.svelte-1pyc7i4.svelte-1pyc7i4, nav.svelte-1sgaob0.svelte-1sgaob0 {
     background: var(--color-dark3);
     border-bottom: 1px solid var(--color-dark5);
   }
