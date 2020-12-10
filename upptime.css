@@ -59,6 +59,10 @@ article.svelte-uyma2x.svelte-uyma2x.svelte-uyma2x {
   color: #fff;
 }
 
+.chartjs-render-monitor {
+  filter: hue-rotate(34deg) saturate(164%) brightness(89%);
+}
+
 @media (prefers-color-scheme: dark) {
     body {
       background-color: var(--color-dark2);
