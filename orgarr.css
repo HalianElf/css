@@ -272,9 +272,11 @@ body {
   border-bottom: 1px solid #2d2c2c;
 }
 
-.EpisodeSummary-filesHeader-2_Kgn, .EpisodeSummary\/filesHeader\/2_Kgn {
+.EpisodeSummary-filesHeader-2_Kgn, .EpisodeSummary\/filesHeader\/2_Kgn,
+.SelectMovieRow-movie-1c6lB, .SelectMovieRow\/movie\/1c6lB {
   border-bottom: 1px solid #2d2c2c;
 }
+
 
 /* ======= ADD NEW ======= */
 .AddNewMovie-searchIconContainer-zNKEC, .AddNewMovie\/searchIconContainer\/zNKEC,
