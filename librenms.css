@@ -660,3 +660,29 @@ code {
     background-color: var(--color-dark1);
     border: 1px solid var(--color-dark1);
 }
+
+
+/* Oxidized */
+.panel-primary > .panel-heading {
+    background-color: var(--color-dark1);
+    border-color: var(--color-dark5);
+}
+.panel-primary {
+    border-color: var(--color-dark5);
+}
+.config pre {
+    border: 1px solid var(--color-dark5);
+    color: var(--color-light2) !important;
+    text-align: left;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+/* Search Dropdown */
+.tt-open {
+    background-color: var(--color-dark1);
+}
+.tt-suggestion:hover {
+    background-color: var(--color-primary);
+}

@@ -26,8 +26,9 @@ status-website:
 ```
 
 ### LibreNMS
-Place the config in the custom css folder. For the docker container this is `/opt/librenms/html/css/custom` 
-(path may vary for native installs) and set your `custom_config.php` to use it like so:
+Create a new file in the custom css folder. In this file, add `@import url("https://halianelf.github.io/css/librenms.css");` 
+For the docker container this is `/opt/librenms/html/css/custom`  (path may vary for native installs) and set your 
+`custom_config.php` to use it like so:
 ```php
 <?php
 $config['webui']['custom_css'][]        = "css/custom/librenms.css";
