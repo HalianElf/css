@@ -516,8 +516,8 @@ body {
   background-color: #212121;
 }
 
-/* PROFILES */
-.QualityDefinition-bar-LlTjA:nth-child(odd), .QualityDefinition\/bar\/LlTjA:nth-child(odd) {
+.QualityDefinition-bar-LlTjA:nth-child(odd), .QualityDefinition\/bar\/LlTjA:nth-child(odd),
+.QualityDefinition-track-34yQ-:nth-child(odd), .QualityDefinition\/track\/34yQ-:nth-child(odd) {
   background-color: #323232;
 }
 
