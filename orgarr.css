@@ -546,6 +546,12 @@ body {
   background: #1f1f1f;
 }
 
+.DownloadProtocolItem-qualityProfileItem-VHS7E, .DownloadProtocolItem\/qualityProfileItem\/VHS7E {
+  border: 0px solid #2a2c2d;
+  background-color: #2a2c2d;
+  color: #dce2ec;
+}
+
 .KeyValueListInputItem-itemContainer-2g1bS, .KeyValueListInputItem\/itemContainer\/2g1bS {
   border-bottom: none;
 }
