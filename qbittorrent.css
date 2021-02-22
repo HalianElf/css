@@ -1,0 +1,345 @@
+:root {
+    --color-dark1: #2a2c2d;
+    --color-dark2: #1b1a1a;
+    --color-dark3: #1f1f1f;
+    --color-dark4: #333333;
+    --color-dark5: #2d2c2c;
+    --color-dark6: #323232;
+
+    --color-light1: #707070;
+    --color-light2: #dce2ec;
+    --color-light3: #e1e2e3;
+
+    --color-primary: #2cabe3;
+    --color-primary-light: #31b0d5;
+    --color-info: #5bc0de;
+    --color-success: #53e69d;
+    --color-danger: #ff7676;
+    --color-warn: #ffc36d;
+    --shadow-standard: 0 2px 2px -1px rgba(0, 0, 0, 0.3)
+}
+
+html, body {
+    background: var(--color-dark2);
+    color: var(--color-light2);
+}
+#desktopNavbar {
+    background: var(--color-dark3);
+    border-bottom: 1px solid var(--color-dark5);
+}
+#desktopNavbar ul li a {
+    color: var(--color-light2);
+}
+#desktopHeader {
+    background: var(--color-dark3);
+}
+a {
+    color: var(--color-primary);
+}
+h2, h3, h4 {
+    color: var(--color-light2);
+}
+
+/* Button Bar */
+.mochaToolButton {
+    border-radius: 4px;
+}
+.mochaToolButton:hover {
+    opacity: 70%;
+}
+img[src="icons/insert-link.svg"].mochaToolButton, img[src="icons/list-add.svg"].mochaToolButton,
+img[src="icons/media-playback-start.svg"].mochaToolButton {
+    filter: hue-rotate(-125deg) brightness(55%) contrast(160%) invert(100%) saturate(1.5);
+    background: #73ff39;
+}
+img[src="icons/list-remove.svg"].mochaToolButton {
+    filter: hue-rotate(-181deg) brightness(54%) contrast(145%) invert(100%) saturate(5.5);
+    background: #ffadad;
+}
+img[src="icons/media-playback-pause.svg"].mochaToolButton {
+    filter: hue-rotate(-181deg) brightness(54%) contrast(170%) invert(100%) saturate(6.5);
+    background: #cee1ff;
+}
+img[src="icons/go-top.svg"].mochaToolButton, img[src="icons/go-up.svg"].mochaToolButton,
+img[src="icons/go-bottom.svg"].mochaToolButton, img[src="icons/go-down.svg"].mochaToolButton,
+img[src="icons/configure.svg"].mochaToolButton {
+    filter: hue-rotate(-181deg) brightness(54%) contrast(170%) invert(100%) saturate(6.5);
+    background: #ff9900;
+}
+#mochaToolbar .divider {
+    background: none;
+    border-left: 1px solid var(--color-dark4);
+}
+#torrentsFilterInput {
+    background-color: var(--color-dark1);
+    border: 1px solid var(--color-dark1);
+    color: var(--color-light2);
+    filter: grayscale(1);
+}
+
+/* Tabs */
+.tab-menu li {
+    background: var(--color-dark3) !important;
+}
+.tab-menu li a {
+    background: var(--color-dark5) !important;
+    border-radius: 6px 6px 0px 0px;
+    color: var(--color-light2) !important;
+    margin-left: 4px !important;
+    padding: 6px 9px 5px 9px !important;
+}
+.tab-menu li.selected a {
+    background: var(--color-light1) !important;
+}
+
+/* Sidebar */
+.panel {
+    background: var(--color-dark2);
+    border-bottom: 1px solid var(--color-dark2);
+}
+.columnHandle {
+    background-color: var(--color-dark5);
+    border: 1px solid var(--color-dark5);
+}
+.selectedFilter {
+    background-color: var(--color-dark4);
+}
+ul.filterList li:hover {
+    background-color: var(--color-dark3);
+}
+
+/* Main Pane */
+#pageWrapper {
+    border-top: 1px solid var(--color-dark5);
+    border-bottom: 1px solid var(--color-dark5);
+}
+.dynamicTable th {
+    background-color: var(--color-dark3) !important;
+    border-right-color: var(--color-dark5) !important;
+}
+.dynamicTable tbody tr {
+    background-color: var(--color-dark2) !important;
+}
+.dynamicTable tbody tr:nth-child(even), .dynamicTable tbody tr.alt {
+    background-color: var(--color-dark3) !important;
+}
+.progressbar_wrapper {
+    border: 1px solid var(--color-dark2) !important;
+}
+.progressbar_light {
+    background: var(--color-dark1) !important;
+    color: var(--color-light1) !important;
+}
+.progressbar_dark {
+    background: var(--color-primary) !important;
+    color: var(--color-light3) !important;
+}
+.dynamicTable tbody tr.selected {
+    background-color: var(--color-dark4) !important;
+    color: var(--color-light2) !important;
+}
+
+/* Details Pane */
+.panel-header {
+    background: var(--color-dark3);
+    border-bottom: 1px solid var(--color-dark3);
+}
+.toolbarTabs {
+    background: var(--color-dark3) !important;
+}
+.horizontalHandle .handleIcon{
+    background-color: var(--color-dark5);
+}
+fieldset {
+    border: 2px solid var(--color-dark5);
+}
+#torrentFilesFilterInput {
+    background-color: var(--color-dark5);
+    filter: grayscale(1);
+    border: 2px solid var(--color-dark5);
+}
+.combo_priority {
+    background: var(--color-dark5);
+    color: var(--color-light2);
+    border: 1px solid var(--color-dark5);
+}
+button {
+    background: var(--color-dark5);
+    color: var(--color-light2);
+    border: 1px solid var(--color-dark5);
+}
+.panel-collapse {
+    filter: invert(100%) saturate(0) brightness(40%);
+}
+
+/* Footer */
+#desktopFooter {
+    background: var(--color-dark3);
+    border: 1px solid var(--color-dark3);
+}
+td.statusBarSeparator {
+    filter: brightness(20%);
+}
+
+/* Settings */
+.mochaTitle {
+    background: var(--color-dark3);
+    border-radius: 6px 6px 0px 0px;
+    color: var(--color-light2) !important;
+    border-bottom: 1px solid var(--color-dark5);
+}
+.mochaMinimizeButton.replaced, .mochaMaximizeButton.replaced, .mochaCloseButton.replaced {
+    background: var(--color-dark3);
+}
+.mochaContentWrapper {
+    background: var(--color-dark2);
+}
+.mochaToolbar, .mochaToolbarWrapper {
+    border-top: 1px solid var(--color-dark3);
+}
+.mochaContentBorder {
+    border-top: 1px solid var(--color-dark3);
+    border-bottom: 1px solid var(--color-dark3);
+}
+.mochaCanvasControls {
+    filter: brightness(60%) contrast(170%) invert(100%) saturate(6.5);
+}
+.mocha {
+    background: var(--color-dark3);
+}
+.mocha .cornerSE {
+    background: var(--color-dark1);
+}
+fieldset.settings {
+    border: solid 2px var(--color-dark1);
+}
+input {
+    background: var(--color-dark1);
+    border: solid var(--color-dark1);
+    color: var(--color-light2);
+}
+input:disabled {
+    color: var(--color-light1);
+}
+input[type="checkbox"] {
+    filter: invert(100%) hue-rotate(164deg) contrast(70%) brightness(120%);
+}
+select {
+    background: var(--color-dark1);
+    color: var(--color-light2);
+    border-color: var(--color-dark1);
+}
+.select-watched-folder-editable {
+    border-color: var(--color-dark1);
+}
+#watched_folders_tab td, #watched_folders_tab th {
+    border-color: var(--color-dark1);
+}
+#uploadForm div {
+    border-color: var(--color-dark3) !important;
+}
+input[type="file" i]::-webkit-file-upload-button {
+    background: var(--color-dark3);
+    border: 1px solid var(--color-dark3);
+    color: var(--color-light2);
+}
+textarea {
+    background: var(--color-dark3);
+    color: var(--color-light2);
+}
+textarea:disabled {
+    background: var(--color-dark3);
+    color: var(--color-light2);
+}
+
+/* Right Click Menus */
+.contextMenu {
+    background: var(--color-dark3);
+    border: 1px solid var(--color-dark4);
+}
+.contextMenu li a {
+    color: var(--color-ligh2);
+}
+.contextMenu li a:hover {
+    background: var(--color-dark1);
+}
+.contextMenu .separator {
+    border-top: 1px solid var(--color-dark4);
+}
+.contextMenu li ul {
+    background: var(--color-dark3);
+    border: 1px solid var(--color-dark4);
+}
+
+/* File Menu */
+#desktopNavbar ul li a:hover {
+    color: var(--color-light2);
+    background: var(--color-dark1);
+}
+#desktopNavbar li ul {
+    background: var(--color-dark3);
+    border: 1px solid var(--color-dark6);
+}
+#desktopNavbar li ul li a {
+    color: var(--color-light2);
+}
+li.divider {
+    border-top: var(--color-light6);
+}
+#desktopNavbar li ul li a:hover {
+    background: var(--color-dark1);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--color-dark2);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-dark5);
+    border: 1px solid var(--color-dark2);
+    border-radius: 5px;
+    min-height: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-dark6);
+}
+
+/* Icons */
+img[src="icons/paused.svg"], img[src="icons/media-playback-pause.svg"] {
+    filter: brightness(0) saturate(100%) invert(78%) sepia(35%) saturate(4444%) hue-rotate(10deg) brightness(104%) contrast(102%);
+}
+img[src="icons/downloading.svg"], img[src="icons/downloading_small.svg"], img[src="icons/kt-set-max-download-speed.svg"] {
+    filter: brightness(0) saturate(100%) invert(53%) sepia(97%) saturate(942%) hue-rotate(182deg) brightness(93%) contrast(86%);
+}
+img[src="icons/uploading.svg"], img[src="icons/seeding.svg"], img[src="icons/resumed.svg"], img[src="icons/connected.svg"],
+img[src="icons/media-seek-forward.svg"], img[src="icons/media-playback-start.svg"], img[src="icons/checked.svg"],
+img[src="icons/list-add.svg"], img[src="icons/insert-link.svg"], img[src="icons/kt-set-max-upload-speed.svg"],
+img[src="icons/ratio.svg"] {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(78%) saturate(347%) hue-rotate(82deg) brightness(97%) contrast(89%);
+}
+img[src="icons/slow_off.svg"], img[src="icons/slow.svg"] {
+    filter: sepia(8%) saturate(326%) hue-rotate(9deg) brightness(143%) contrast(89%);
+}
+img[src="icons/filteractive.svg"] {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(47%) saturate(3800%) hue-rotate(6deg) brightness(96%) contrast(92%);
+}
+img[src="icons/completed.svg"] {
+    filter: hue-rotate(50deg) brightness(110%) contrast(110%) saturate(5.5);
+}
+img[src="icons/stalledUP.svg"], img[src="icons/stalledDL.svg"], img[src="icons/filterstalled.svg"], img[src="icons/filterinactive.svg"],
+img[src="icons/network-server.svg"], img[src="icons/inode-directory.svg"], img[src="icons/edit-rename.svg"], img[src="icons/view-categories.svg"],
+img[src="icons/document-edit-verify.svg"], img[src="icons/edit-copy.svg"], img[src="icons/view-statistics.svg"], img[src="icons/configure.svg"],
+img[src="icons/help-contents.svg"], img[src="icons/wallet-open.svg"], img[src="icons/help-about.svg"], img[src="icons/go-down.svg"] {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(8%) saturate(326%) hue-rotate(136deg) brightness(90%) contrast(89%);
+}
+img[src="icons/filterall.svg"] {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(5277%) hue-rotate(99deg) brightness(91%) contrast(68%);
+}
+img[src="icons/error.svg"], img[src="icons/list-remove.svg"], img[src="icons/system-log-out.svg"], img[src="icons/application-exit.svg"],
+img[src="icons/kt-magnet.svg"] {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(73%) saturate(3415%) hue-rotate(351deg) brightness(110%) contrast(74%);
+}
