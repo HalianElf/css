@@ -495,8 +495,7 @@ body {
 .ReleaseProfiles-addReleaseProfile-1SsDM, .ReleaseProfiles\/addReleaseProfile\/1SsDM,
 .Indexers-addIndexer-2QuUZ, .Indexers\/addIndexer\/2QuUZ,
 .DownloadClients-addDownloadClient-3wo5E, .DownloadClients\/addDownloadClient\/3wo5E,
-.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5,
-.Applications-center-14AVU, .Applications\/center\/14AVU {
+.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5 {
   background-color: #212121;
 }
 
@@ -512,7 +511,8 @@ body {
 .ImportLists-center-17Qdu, .ImportLists\/center\/17Qdu,
 .EditCustomFormatModalContent-center-3QU87, .EditCustomFormatModalContent\/center\/3QU87,
 .Restrictions-center-3ngzk, .Restrictions\/center\/3ngzk,
-.RootFolders-center-XcFPy, .RootFolders\/center\/XcFPy {
+.RootFolders-center-XcFPy, .RootFolders\/center\/XcFPy,
+.Applications-center-14AVU, .Applications\/center\/14AVU {
   border: none;
   background-color: #212121;
 }
