@@ -34,7 +34,7 @@ html, body {
     background: var(--color-dark3);
 }
 a {
-    color: var(--color-primary);
+    color: var(--color-primary-light);
 }
 h2, h3, h4 {
     color: var(--color-light2);
@@ -131,7 +131,7 @@ ul.filterList li:hover {
     color: var(--color-light1) !important;
 }
 .progressbar_dark {
-    background: var(--color-primary) !important;
+    background: var(--color-primary-light) !important;
     color: var(--color-light3) !important;
 }
 .dynamicTable tbody tr.selected {
