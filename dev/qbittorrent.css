@@ -307,6 +307,9 @@ li.divider {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--color-dark6);
 }
+::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+}
 
 /* Icons */
 img[src="icons/paused.svg"], img[src="icons/media-playback-pause.svg"] {
