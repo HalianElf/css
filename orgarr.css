@@ -495,7 +495,8 @@ body {
 .ReleaseProfiles-addReleaseProfile-1SsDM, .ReleaseProfiles\/addReleaseProfile\/1SsDM,
 .Indexers-addIndexer-2QuUZ, .Indexers\/addIndexer\/2QuUZ,
 .DownloadClients-addDownloadClient-3wo5E, .DownloadClients\/addDownloadClient\/3wo5E,
-.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5 {
+.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5,
+.Applications-center-14AVU, .Applications\/center\/14AVU {
   background-color: #212121;
 }
 
@@ -560,6 +561,11 @@ body {
 .KeyValueListInputItem-valueInput-3zlQA, .KeyValueListInputItem\/valueInput\/3zlQA {
   background: transparent;
   color: #dce2ec;
+}
+
+/* Updates */
+.Updates-info-19gvs, .Updates\/info\/19gvs {
+  border-bottom: 1px solid #2a2c2d;
 }
 
 /* ======= UPDATED POP UP ======= */
