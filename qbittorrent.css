@@ -336,13 +336,14 @@ img[src="icons/completed.svg"] {
 img[src="icons/stalledUP.svg"], img[src="icons/stalledDL.svg"], img[src="icons/filterstalled.svg"], img[src="icons/filterinactive.svg"],
 img[src="icons/network-server.svg"], img[src="icons/inode-directory.svg"], img[src="icons/edit-rename.svg"], img[src="icons/view-categories.svg"],
 img[src="icons/document-edit-verify.svg"], img[src="icons/edit-copy.svg"], img[src="icons/view-statistics.svg"], img[src="icons/configure.svg"],
-img[src="icons/help-contents.svg"], img[src="icons/wallet-open.svg"], img[src="icons/help-about.svg"], img[src="icons/go-down.svg"] {
+img[src="icons/help-contents.svg"], img[src="icons/wallet-open.svg"], img[src="icons/help-about.svg"], img[src="icons/go-down.svg"],
+img[src="icons/document-edit.svg"] {
     filter: brightness(0) saturate(100%) invert(59%) sepia(8%) saturate(326%) hue-rotate(136deg) brightness(90%) contrast(89%);
 }
 img[src="icons/filterall.svg"] {
     filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(5277%) hue-rotate(99deg) brightness(91%) contrast(68%);
 }
 img[src="icons/error.svg"], img[src="icons/list-remove.svg"], img[src="icons/system-log-out.svg"], img[src="icons/application-exit.svg"],
-img[src="icons/kt-magnet.svg"] {
+img[src="icons/kt-magnet.svg"], img[src="icons/edit-delete.svg"] {
     filter: brightness(0) saturate(100%) invert(26%) sepia(73%) saturate(3415%) hue-rotate(351deg) brightness(110%) contrast(74%);
 }
