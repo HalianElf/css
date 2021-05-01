@@ -6,572 +6,505 @@ body {
   color: #dce2ec !important;
 }
 
-.PageHeader-header-1IhlM, .PageHeader\/header\/1IhlM {
+[class^="PageHeader-header"] {
   background-color: #1f1f1f;
   color: #dce2ec;
 }
 
-.PageSidebar-sidebar-3IOcI, .PageSidebar\/sidebar\/3IOcI {
+[class^="PageSidebar-sidebar"] {
   background-color: #1f1f1f;
   color: #97999f;
 }
 
-.PageSidebarItem-isActiveParentLink-2uxKf, .PageSidebarItem\/isActiveParentLink\/2uxKf {
+[class*="PageSidebarItem-isActiveParentLink"] {
   background-color: #2d2c2c;
 }
 
-.PageToolbar-toolbar-1Lo1N, .PageToolbar\/toolbar\/1Lo1N {
+[class^="PageToolbar-toolbar"] {
   background-color: #1b1a1a;
   color: #96a2b4;
 }
 
-.PageToolbarButton-label-10YbS, .PageToolbarButton\/label\/10YbS {
+[class^="PageToolbarButton-label"] {
   color: #96a2b4 !important;
 }
 
-.OverlayScroller-thumb-1Lhfi, .OverlayScroller\/thumb\/1Lhfi,
-.Scroller-scroller-26MBT::-webkit-scrollbar-thumb, .Scroller\/scroller\/26MBT::-webkit-scrollbar-thumb {
+[class^="OverlayScroller-thumb"], [class^="Scroller-scroller"]::-webkit-scrollbar-thumb {
   background-color: #2d2c2c;
 }
 
-.OverlayScroller-thumb-1Lhfi:hover, .OverlayScroller\/thumb\/1Lhfi:hover,
-.Scroller-scroller-26MBT::-webkit-scrollbar-thumb:hover, .Scroller\/scroller\/26MBT::-webkit-scrollbar-thumb:hover {
+[class^="OverlayScroller-thumb"]:hover, [class^="Scroller-scroller"]::-webkit-scrollbar-thumb:hover {
   background-color: #323232;
 }
 
-.SeriesSearchInput\/containerOpen\/3F8xe .SeriesSearchInput\/seriesContainer\/2yDTR,
-.MovieSearchInput-containerOpen-3c93F .MovieSearchInput-movieContainer-3FWAq,
-.ArtistSearchInput-containerOpen-OZAuD .ArtistSearchInput-artistContainer-331xe {
+[class*="SeriesSearchInput-containerOpen"] [class^="SeriesSearchInput-seriesContainer"], 
+[class*="MovieSearchInput-containerOpe"] [class^="MovieSearchInput-movieContainer"], 
+[class*="ArtistSearchInput-containerOpen"] [class^="ArtistSearchInput-artistContainer"] {
   border: 1px solid #2d2c2c;
   background-color: #2d2c2c;
   color: #dce2ec;
 }
 
-.SeriesSearchInput\/input\/2CZrq,
-.MovieSearchInput-input-2j6jL,
-.ArtistSearchInput-input-1CuLx {
+[class^="SeriesSearchInput-input"], [class^="MovieSearchInput-input"], [class^="ArtistSearchInput-input"] {
   border-bottom: solid 1px #323232;
 }
 
 /* ======= MOVIES/SERIES/LIBRARY ======= */
-.SeriesIndexPoster-controls-prEIO, .SeriesIndexPoster\/controls\/prEIO,
-.ArtistIndexPoster-controls-17A8w, .ArtistIndexPoster\/controls\/17A8w,
-.MovieIndexPoster-controls-COwa9, .MovieIndexPoster\/controls\/COwa9 {
+[class^="SeriesIndexPoster-controls"], [class^="ArtistIndexPoster-controls"], [class^="MovieIndexPoster-controls"] {
   background-color: #232323;
 }
 
-.SeriesIndexPoster-title-263Pq, .SeriesIndexPoster\/title\/263Pq,
-.SeriesIndexPoster-nextAiring-1FZy6, .SeriesIndexPoster\/nextAiring\/1FZy6,
-.SeriesIndexPosterInfo-info-2JsCg, .SeriesIndexPosterInfo\/info\/2JsCg,
-.ArtistIndexPoster-title-38afV, .ArtistIndexPoster\/title\/38afV,
-.ArtistIndexPosterInfo-info-3J_DB, .ArtistIndexPosterInfo\/info\/3J_DB,
-.MovieIndexPoster-title-Umirt, .MovieIndexPoster\/title\/Umirt,
-.MovieIndexPosterInfo-info-2Oh-5, .MovieIndexPosterInfo\/info\/2Oh-5 {
+[class^="SeriesIndexPoster-title"], [class^="SeriesIndexPoster-nextAiring"], [class^="SeriesIndexPosterInfo-info"], [class^="ArtistIndexPoster-title"],
+[class^="ArtistIndexPosterInfo"], [class^="MovieIndexPoster-title"], [class^="MovieIndexPosterInfo-info"] {
   background-color: #2d2c2c;
 }
 
-.PageContentFooter-contentFooter-3ODMj, .PageContentFooter\/contentFooter\/3ODMj {
+[class^="PageContentFooter-contentFooter"] {
   background-color: #1b1a1a;
 }
 
-.PageJumpBarItem-jumpBarItem-3F58I, .PageJumpBarItem\/jumpBarItem\/3F58I {
+[class^="PageJumpBarItem-jumpBarItem"] {
   border: 1px solid #2d2c2c
 }
 
-.PageJumpBarItem-jumpBarItem-3F58I:last-child, .PageJumpBarItem\/jumpBarItem\/3F58I:last-child {
+[class^="PageJumpBarItem-jumpBarItem"]:last-child {
   border-left: 1px solid #2d2c2c
 }
 
 /* TABLE VIEW */
-.VirtualTableRow-row-2-JS9:hover, .VirtualTableRow\/row\/2-JS9:hover {
+[class^="VirtualTableRow-row"]:hover {
   background-color: #232323;
 }
 
-.ProgressBar-container-14z4A, .ProgressBar\/container\/14z4A {
+[class^="ProgressBar-container"] {
   background-color: #323232;
 }
 
 /* OVERVIEW VIEW */
-.SeriesIndexOverview-link-1i54B, .SeriesIndexOverview\/link\/1i54B,
-.MovieIndexOverview-link-ubiA0,
-.ArtistIndexOverview-link-1Ry9u {
+[class^="SeriesIndexOverview-link"], [class^="MovieIndexOverview-link"], [class^="ArtistIndexOverview-link"] {
   color: #dce2ec;
 }
 
-.SeriesIndexOverview-link-1i54B:hover, .SeriesIndexOverview\/link\/1i54B:hover,
-.MovieIndexOverview-link-ubiA0:hover,
-.ArtistIndexOverview-link-1Ry9u:hover {
+[class^="SeriesIndexOverview-link"]:hover, [class^="MovieIndexOverview-link"]:hover, [class^="ArtistIndexOverview-link"]:hover {
   color: #dce2ec;
 }
 
 /* ======= MEDIA ITEM ======= */
-.SeriesDetailsSeason-season-3XIYa, .SeriesDetailsSeason\/season\/3XIYa,
-.ArtistDetailsSeason-albumType-3aBd-, .ArtistDetailsSeason\/albumType\/3aBd-,
-.AlbumDetailsMedium-medium-dqPTF, .AlbumDetailsMedium\/medium\/dqPTF {
+[class^="SeriesDetailsSeason-season"], [class^="ArtistDetailsSeason-albumType"], [class^="AlbumDetailsMedium-medium"] {
   border: 1px solid #1f1f1f;
   background-color: #1f1f1f;
 }
 
-.SeriesDetailsSeason-collapseButtonContainer-trs6s, .SeriesDetailsSeason\/collapseButtonContainer\/trs6s,
-.ArtistDetailsSeason-collapseButtonContainer-1c4Kb, .ArtistDetailsSeason\/collapseButtonContainer\/1c4Kb,
-.AlbumDetailsMedium-collapseButtonContainer-33Y3Z, .AlbumDetailsMedium\/collapseButtonContainer\/33Y3Z {
+[class^="SeriesDetailsSeason-collapseButtonContainer"], [class^="ArtistDetailsSeason-collapseButtonContainer"],
+[class^="AlbumDetailsMedium-collapseButtonContainer"] {
   border-top: 1px solid #2a2c2d;
   background-color: #1f1f1f;
 }
 
-.SeriesDetailsSeason-episodes-2_O-g, .SeriesDetailsSeason\/episodes\/2_O-g,
-.ArtistDetailsSeason-albums-1kcYI, .ArtistDetailsSeason\/albums\/1kcYI,
-.AlbumDetailsMedium-tracks-3kD7G, .AlbumDetailsMedium\/tracks\/3kD7G {
+[class^="SeriesDetailsSeason-episodes"], [class^="ArtistDetailsSeason-albums"], [class^="AlbumDetailsMedium-tracks"] {
   border-top: 1px solid #2a2c2d;
 }
 
-.TableRowCell-cell-2fbg4, .TableRowCell\/cell\/2fbg4 {
+[class*="TableRowCell-cell"] {
   border-top: 1px solid #2d2c2c;
 }
 
-.TableRow-row-33xJE:hover, .TableRow\/row\/33xJE:hover {
+[class^="TableRow-row"]:hover {
   background-color: #2d2c2c;
 }
 
-.MovieCreditPoster-title-EGksL, .MovieCreditPoster\/title\/EGksL {
+[class^="MovieCreditPoster-title"] {
   background-color: #2d2c2c;
 }
 
-.MovieFileEditorTable-container-3VYDG {
+[class^="MovieFileEditorTable-container"] {
   background-color: #1b1a1a;
   border: 0;
 }
 
-.ExtraFileTable-container-1NM2r {
+[class^="ExtraFileTable-container"] {
   background-color: #1f1f1f;
   border: 1px solid #1f1f1f;
 }
 
 /* ======= POP-OUT WINDOWS ======= */
-.MovieDetails-tabList-2dYVV {
+[class^="MovieDetails-tabList"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
-.Popover-title-326tA, .Popover\/title\/326tA {
+[class^="Popover-title"] {
   border-bottom: 1px solid #2a2c2d;
   background-color: #212121;
 }
 
-.Tooltip-tooltip-3HJXy.Tooltip-default-2NTKh, .Tooltip\/tooltip\/3HJXy.Tooltip\/default\/2NTKh {
+[class^="Tooltip-tooltip-"][class*="Tooltip-default"] {
   background-color: #212121;
 }
 
-.Tooltip-bottom-3Ewbi.Tooltip-default-2NTKh, .Tooltip\/bottom\/3Ewbi.Tooltip\/default\/2NTKh {
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+[class*="Tooltip-bottom-"][class*="Tooltip-default"] {
+  border-bottom-color: #212121;
 }
 
-.Tooltip-left-3QgYj.Tooltip-default-2NTKh, .Tooltip\/left\/3QgYj.Tooltip\/default\/2NTKh {
+[class*="Tooltip-left-"][class*="Tooltip-default"] {
   border-left-color: #212121;
 }
 
-.Tooltip-right-2MxTa.Tooltip-default-2NTKh, .Tooltip\/right\/2MxTa.Tooltip\/default\/2NTKh {
+[class*="Tooltip-right-"][class*="Tooltip-default"] {
   border-right-color: #212121;
 }
-
-.ModalContent-modalContent--txrl, .ModalContent\/modalContent\/-txrl {
+[class^="ModalContent-modalContent"] {
   background-color: #1b1a1a;
 }
 
-.ModalHeader-modalHeader-gpcvG, .ModalHeader\/modalHeader\/gpcvG {
+[class^="ModalHeader-modalHeader"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
-.ModalFooter-modalFooter-1N5Ku, .ModalFooter\/modalFooter\/1N5Ku {
+[class^="ModalFooter-modalFooter"] {
   border-top: 1px solid #2d2c2c;
 }
 
-.Button-default-2uiHU, .Button\/default\/2uiHU {
+[class*="Button-default"] {
   border-color: #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.Button-default-2uiHU:hover, .Button\/default\/2uiHU:hover {
+[class*="Button-default"]:hover {
   border-color: #323232;
   background-color: #323232;
   color: #dce2ec;
 }
 
-.Input-input-2YWzR, .Input\/input\/2YWzR {
+[class*="Input-input"] {
   border: 0px solid #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.Input-input-2YWzR:focus, .Input\/input\/2YWzR:focus {
+[class^="Input-input"]:focus {
   border-color: #2a2c2d;
 }
 
-.MenuItem-menuItem-zB-Up, .MenuItem\/menuItem\/zB-Up {
+[class^="MenuItem-menuItem"] {
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.MenuItem-menuItem-zB-Up:hover, .MenuItem-menuItem-zB-Up:focus,
-.MenuItem\/menuItem\/zB-Up:hover, .MenuItem\/menuItem\/zB-Up:focus {
+[class^="MenuItem-menuItem"]:hover, [class^="MenuItem-menuItem"]:focus {
   background-color: #323232;
 }
 
-.EnhancedSelectInput-enhancedSelect-MfnzY, .EnhancedSelectInput\/enhancedSelect\/MfnzY {
+[class^="EnhancedSelectInput-enhancedSelect"] {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.EnhancedSelectInput-options-3yy65, .EnhancedSelectInput\/options\/3yy65 {
+[class^="EnhancedSelectInput-options"] {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
 }
 
-.EnhancedSelectInputOption-option-iwTsL:hover, .EnhancedSelectInputOption\/option\/iwTsL:hover {
+[class^="EnhancedSelectInput-options"]:hover {
   background-color: #323232;
 }
 
-.EnhancedSelectInputOption-isSelected-1mRo2, .EnhancedSelectInputOption\/isSelected\/1mRo2 {
+[class^="EnhancedSelectInputOption-isSelected"] {
   background-color: #2a2c2d;
 }
 
-.EnhancedSelectInputOption-isSelected-1mRo2:hover, .EnhancedSelectInputOption\/isSelected\/1mRo2:hover {
+[class^="EnhancedSelectInputOption-isSelected"]:hover {
   background-color: #323232;
 }
 
-.TagInput-internalInput-Jbb1T, .TagInput\/internalInput\/Jbb1T {
+[class^="TagInput-internalInput"] {
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.AutoSuggestInput-suggestionsContainerOpen-3TAB7 .AutoSuggestInput-suggestionsContainer-3MmlD,
-.AutoSuggestInput\/suggestionsContainerOpen\/3TAB7 .AutoSuggestInput\/suggestionsContainer\/3MmlD {
+[class^="AutoSuggestInput-suggestionsContainerOpen"] [class^="AutoSuggestInput-suggestionsContainer"] {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
 }
 
-.AutoSuggestInput-suggestionHighlighted-2BWyt, .AutoSuggestInput\/suggestionHighlighted\/2BWyt {
+[class^="AutoSuggestInput-suggestionHighlighted"] {
   background-color: #323232;
 }
 
-.EpisodeDetailsModalContent-selectedTab-42EMp, .EpisodeDetailsModalContent\/selectedTab\/42EMp {
+[class^="EpisodeDetailsModalContent-selectedTab"] {
   border-color: #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.TableOptionsColumn-column-2H7ic, .TableOptionsColumn\/column\/2H7ic {
+[class^="TableOptionsColumn-column"] {
   background-color: #212121;
   border: 1px solid #212121;
 }
 
-.CheckInput-input-283j3, .CheckInput\/input\/283j3 {
+[class*="CheckInput-input"] {
   background-color: #323232;
   border: 1px solid #323232;
 }
 
-.OrganizePreviewRow-row-JelLl, .OrganizePreviewRow\/row\/JelLl {
+[class^="OrganizePreviewRow-row"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
-.EpisodeSummary-filesHeader-2_Kgn, .EpisodeSummary\/filesHeader\/2_Kgn,
-.SelectMovieRow-movie-1c6lB, .SelectMovieRow\/movie\/1c6lB {
+[class^="EpisodeSummary-filesHeader"], [class^="SelectMovieRow-movie"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
 
 /* ======= ADD NEW ======= */
-.AddNewMovie-searchIconContainer-zNKEC, .AddNewMovie\/searchIconContainer\/zNKEC,
-.AddNewSeries-searchIconContainer-3QAm8, .AddNewSeries\/searchIconContainer\/3QAm8,
-.AddNewArtist-searchIconContainer-7ygSM, .AddNewArtist\/searchIconContainer\/7ygSM,
-.AddNewItem-searchIconContainer-2CBFJ {
+[class^="AddNewMovie-searchIconContainer"], [class^="AddNewSeries-searchIconContainer"],
+[class^="AddNewArtist-searchIconContainer"], [class^="AddNewItem-searchIconContainer"] {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
 }
 
-.AddNewMovieSearchResult-searchResult-1FdVg, .AddNewMovieSearchResult\/searchResult\/1FdVg,
-.AddNewSeriesSearchResult-searchResult-xR8dj, .AddNewSeriesSearchResult\/searchResult\/xR8dj,
-.AddNewArtistSearchResult-searchResult-N5Vx4, .AddNewArtistSearchResult\/searchResult\/N5Vx4,
-.AddNewArtistSearchResult-searchResult-fxW3m,
-.AddNewSeriesSearchResult\/underlay\/11FBP,
-.AddNewMovieSearchResult-underlay-1h0bG,
-.AddNewArtistSearchResult-underlay-3aVNi,
-.AddNewAlbumSearchResult-underlay-2Egnf {
+[class^="AddNewMovieSearchResult-underlay"], [class^="AddNewSeriesSearchResult-underlay"],
+[class^="AddNewAlbumSearchResult-underlay"], [class^="AddNewArtistSearchResult-underlay"] {
   background-color: #1f1f1f;
 }
 
-.AddNewMovieSearchResult-searchResult-1FdVg:hover, .AddNewMovieSearchResult\/searchResult\/1FdVg:hover,
-.AddNewSeriesSearchResult-searchResult-xR8dj:hover, .AddNewSeriesSearchResult\/searchResult\/xR8dj:hover,
-.AddNewArtistSearchResult-searchResult-N5Vx4:hover, .AddNewArtistSearchResult\/searchResult\/N5Vx4:hover,
-.AddNewArtistSearchResult-searchResult-fxW3m:hover,
-.AddNewSeriesSearchResult\/underlay\/11FBP:hover,
-.AddNewMovieSearchResult-underlay-1h0bG:hover,
-.AddNewArtistSearchResult-underlay-3aVNi:hover,
-.AddNewAlbumSearchResult-underlay-2Egnf:hover {
+[class^="AddNewMovieSearchResult-underlay"]:hover, [class^="AddNewSeriesSearchResult-underlay"]:hover,
+[class^="AddNewAlbumSearchResult-underlay"]:hover, [class^="AddNewArtistSearchResult-underlay"]:hover {
   background-color: #2a2c2d;
 }
 
 /* ======= IMPORT ======= */
-.FieldSet-legend-3x6NF, .FieldSet\/legend\/3x6NF {
+[class^="FieldSet-legend"] {
   border-bottom: 1px solid #2a2c2d;
   color: #dce2ec;
 }
 
-.ImportSeriesSelectSeries-button-3CL3L, .ImportSeriesSelectSeries\/button\/3CL3L,
-.ImportMovieSelectMovie-button-1dL1Z {
+[class^="ImportSeriesSelectSeries-button"], [class^="ImportMovieSelectMovie-button-1dL1Z"] {
   background-color: #2a2c2d;
   border: 1px solid #2a2c2d;
 }
 
-.ImportSeriesSelectSeries-content-3oSDj, .ImportSeriesSelectSeries\/content\/3oSDj,
-.ImportMovieSelectMovie-content-fSTb8 {
+[class^="ImportSeriesSelectSeries-content"], [class^="ImportMovieSelectMovie-content"] {
   border: 1px solid #1f1f1f;
   background-color: #1f1f1f;
 }
 
-.ImportSeriesSearchResult-series-2BXMC:hover, .ImportSeriesSearchResult\/series\/2BXMC:hover,
-.ImportMovieSearchResult-movie-2kMrG:hover {
+[class^="ImportSeriesSelectSeries-content"]:hover, [class^="ImportMovieSelectMovie-content"]:hover {
   background-color: #2a2c2d;
 }
 
-.ImportSeriesSelectSeries-searchIconContainer-1wOES, .ImportSeriesSelectSeries\/searchIconContainer\/1wOES,
-.ImportMovieSelectMovie-searchIconContainer-2yf6b {
+[class^="ImportSeriesSelectSeries-searchIconContainer"], [class^="ImportMovieSelectMovie-searchIconContainer"] {
   border: 1px solid #2a2c2d;
   background-color: #2a2c2d;
 }
 
-.SelectSeasonRow-season-HWSg2, .SelectSeasonRow\/season\/HWSg2 {
+[class^="SelectSeasonRow-season"] {
   border: 1px solid #2a2c2d;
 }
 
-.CustomFilter-customFilter-zBSMd:hover, .CustomFilter\/customFilter\/zBSMd:hover {
+[class^="CustomFilter-customFilter"]:hover {
   background-color: #1f1f1f;
 }
 
-.FilterBuilderRow-filterRow-1ozij:hover, .FilterBuilderRow\/filterRow\/1ozij:hover {
+[class^="FilterBuilderRow-filterRow"]:hover {
   background-color: #1f1f1f;
 }
 
 /* ======= DISCOVER ======= */
-.DiscoverMovieOverview-link-3ukU2, .DiscoverMovieOverview\/link\/3ukU2 {
+[class^="DiscoverMovieOverview-link"] {
   color: #dce2ec;
 }
 
-.DiscoverMovieOverview-link-3ukU2:hover, .DiscoverMovieOverview\/link\/3ukU2:hover {
+[class^="DiscoverMovieOverview-link"]:hover {
   color: #ffffff;
 }
 
 /* ======= SEASON PASS/ALBUM STUDIO ======= */
-.SeasonPassSeason-season-2FWuT, .SeasonPassSeason\/season\/2FWuT,
-.AlbumStudioAlbum-albumType-3QdT4, .AlbumStudioAlbum\/albumType\/3QdT4,
-.AlbumStudioAlbum-album-mOsjl, .AlbumStudioAlbum\/album\/mOsjl {
+[class^="SeasonPassSeason-season"], [class^="AlbumStudioAlbum-album"] {
   background-color: #323232;
   border: 1px solid #323232;
   color: #dce2ec;
 }
 
-.SeasonPassSeason-episodes-N99zs, .SeasonPassSeason\/episodes\/N99zs,
-.AlbumStudioAlbum-tracks-14O0r, .AlbumStudioAlbum\/tracks\/14O0r {
+[class^="SeasonPassSeason-episodes"], [class^="AlbumStudioAlbum-tracks"] {
   background-color: #4c5667;
   color: #dce2ec;
 }
 
-.SeasonPassSeason-allEpisodes-1zGja, .SeasonPassSeason\/allEpisodes\/1zGja,
-.AlbumStudioAlbum-allTracks-1KGPc, .AlbumStudioAlbum\/allTracks\/1KGPc {
+[class*="SeasonPassSeason-allEpisodes"], [class*="AlbumStudioAlbum-allTracks"] {
   background-color: #53E69D;
   color: #323232;
 }
 
-.AlbumStudioAlbum-missingWanted-1jEbu, .AlbumStudioAlbum\/missingWanted\/1jEbu {
+[class^="AlbumStudioAlbum-missingWanted"] {
 	background-color: #ff7676;
   color: #323232;
 }
 
 /* ======= RADARR DISCOVER/LISTS ======= */
-.AddListMovieOverview-container-1O7bo:hover .AddListMovieOverview-content-1orZ3 {
+[class^="AddListMovieOverview-container"]:hover [class^="AddListMovieOverview-content"] {
   background-color: #232323;
 }
 
 /* ======= CALENDAR ======= */
-.DayOfWeek-dayOfWeek-1iw4D, .DayOfWeek\/dayOfWeek\/1iw4D {
+[class^="DayOfWeek-dayOfWeek"] {
   background-color: #2a2c2d;
 }
 
-.CalendarDay-isToday-1rFJO, .CalendarDay\/isToday\/1rFJO {
+[class^="CalendarDay-isToday"] {
   background-color: #212121;
 }
 
-.CalendarDay-day-2TMXA, .CalendarDay\/day\/2TMXA {
+[class^="CalendarDay-day"] {
   border-bottom: 1px solid #2a2c2d;
   border-left: 1px solid #2a2c2d;
 }
 
-.CalendarDay-dayOfMonth-2CzdW, .CalendarDay\/dayOfMonth\/2CzdW {
+[class^="CalendarDay-dayOfMonth"] {
   border-bottom: 1px solid #2a2c2d;
 }
 
-.CalendarDays-days-girjM, .CalendarDays\/days\/girjM {
+[class^="CalendarDays-days"] {
   border-right: 1px solid #2a2c2d;
 }
 
-.DayOfWeek-isToday-SozUU, .DayOfWeek\/isToday\/SozUU {
+[class^="DayOfWeek-isToday"] {
   background-color: #212121;
 }
 
-.CalendarEvent-event-3Uyb9, .CalendarEvent\/event\/3Uyb9 {
+[class^="CalendarEvent-event"] {
   border-right: 1px solid #2a2c2d;
   border-bottom: 1px solid #2a2c2d;
   border-top: 1px solid #2a2c2d;
 }
 
-.CalendarEvent-seriesTitle-3sg1o, .CalendarEvent\/seriesTitle\/3sg1o,
-.CalendarEvent-movieTitle-2-WAP, .CalendarEvent\/movieTitle\/2-WAP {
+[class^="CalendarEvent-seriesTitle"], [class^="CalendarEvent-movieTitle"] {
   color: #dce2ec;
 }
 
-.CalendarEvent-episodeInfo-IWdbW, .CalendarEvent\/episodeInfo\/IWdbW,
-.CalendarEvent-airTime-3Wzho, .CalendarEvent\/airTime\/3Wzho,
-.CalendarEvent-movieInfo-2LF5- {
+[class^="CalendarEvent-episodeInfo"], [class^="CalendarEvent-airTime"], [class^="CalendarEvent-movieInfo"] {
   color: #96a2b4;
 }
 
-.AgendaEvent-event-2a83A, .AgendaEvent\/event\/2a83A {
+[class^="AgendaEvent-event"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
-.AgendaEvent-event-2a83A:hover, .AgendaEvent\/event\/2a83A:hover {
+[class^="AgendaEvent-event"]:hover {
   background-color: #232323;
 }
 
 /* ======= WANTED ======= */
-.SelectSeriesRow-series-1SgeZ, .SelectSeriesRow\/series\/1SgeZ {
+[class^="SelectSeriesRow-series"] {
   border-bottom: 1px solid #2d2c2c;
 }
 
 /* ======= SETTINGS ======= */
-.Settings-link-tvjY0, .Settings\/link\/tvjY0 {
+[class^="Settings-link"] {
   border-bottom: none;
   color: #dce2ec;
 }
 
-.Settings-link-tvjY0:hover, .Settings\/link\/tvjY0:hover {
+[class^="Settings-link"]:hover {
   color: #ffffff;
 }
 
-.Settings-summary-3KPAv, .Settings\/summary\/3KPAv {
+[class^="Settings-summary"] {
   color: #96a2b4;
 }
 
 /* MEDIA MANAGEMENT */
-.NamingOption-option-giCGd, .NamingOption\/option\/giCGd {
+[class^="NamingOption-option"] {
   border: 1px solid #2a2c2d;
 }
 
-.NamingOption-token-1y5bz, .NamingOption\/token\/1y5bz {
+[class^="NamingOption-token"] {
   background-color: #2a2c2d;
 }
 
-.NamingOption-example-RNR6x, .NamingOption\/example\/RNR6x {
+[class^="NamingOption-example"] {
   background-color: #1f1f1f;
 }
 
-.NamingOption-option-giCGd:hover .NamingOption-token-1y5bz,
-.NamingOption\/option\/giCGd:hover .NamingOption\/token\/1y5bz {
+[class^="NamingOption-option"]:hover [class^="NamingOption-token"] {
   background-color: #323232;
 }
 
-.NamingOption-option-giCGd:hover .NamingOption-example-RNR6x,
-.NamingOption\/option\/giCGd:hover .NamingOption\/example\/RNR6x {
+[class^="NamingOption-option"]:hover [class^="NamingOption-example"] {
     background-color: #232323;
 }
 
 /* PROFILES/CUSTOM FORMATS/INDEXERS/DOWNLOAD CLIENTS/LIST/CONNECT */
-.Card-card-1iGZk, .Card\/card\/1iGZk {
+[class*="Card-card"] {
   background-color: #212121;
   box-shadow: 0 0 10px 1px #00000060;
   color: #dce2ec;
 }
 
-.QualityProfiles-addQualityProfile-2U2Io, .QualityProfiles\/addQualityProfile\/2U2Io,
-.LanguageProfiles-addLanguageProfile-3ic6m, .LanguageProfiles\/addLanguageProfile\/3ic6m,
-.ReleaseProfiles-addReleaseProfile-1SsDM, .ReleaseProfiles\/addReleaseProfile\/1SsDM,
-.Indexers-addIndexer-2QuUZ, .Indexers\/addIndexer\/2QuUZ,
-.DownloadClients-addDownloadClient-3wo5E, .DownloadClients\/addDownloadClient\/3wo5E,
-.Notifications-addNotification-3Z3g5, .Notifications\/addNotification\/3Z3g5 {
+[class^="QualityProfiles-addQualityProfile"], [class^="LanguageProfiles-addLanguageProfile"],
+[class^="ReleaseProfiles-addReleaseProfile"], [class^="Indexers-addIndexer"],
+[class^="DownloadClients-addDownloadClient"], [class^="Notifications-addNotification"] {
   background-color: #212121;
 }
 
-.QualityProfiles-center-1iiKm, .QualityProfiles\/center\/1iiKm,
-.LanguageProfiles-center-7EV_2, .LanguageProfiles\/center\/7EV_2,
-.ReleaseProfiles-center-114Qx, .ReleaseProfiles\/center\/114Qx,
-.Indexers-center-11Csq, .Indexers\/center\/11Csq,
-.DownloadClients-center-FvACx, .DownloadClients\/center\/FvACx,
-.Notifications-center-8iwmy, .Notifications\/center\/8iwmy,
-.CustomFormats-center-1w6Bw, .CustomFormats\/center\/1w6Bw,
-.NetImports-center-3otL-, .NetImports\/center\/3otL-,
-.MetadataProfiles-center-dOatB, .MetadataProfiles\/center\/dOatB,
-.ImportLists-center-17Qdu, .ImportLists\/center\/17Qdu,
-.EditCustomFormatModalContent-center-3QU87, .EditCustomFormatModalContent\/center\/3QU87,
-.Restrictions-center-3ngzk, .Restrictions\/center\/3ngzk,
-.RootFolders-center-XcFPy, .RootFolders\/center\/XcFPy,
-.Applications-center-14AVU, .Applications\/center\/14AVU {
+[class^="QualityProfiles-center"], [class^="LanguageProfiles-center"], [class^="ReleaseProfiles-center"],
+[class^="Indexers-center"], [class^="DownloadClients-center"], [class^="Notifications-center"],
+[class^="CustomFormats-center"], [class^="NetImports-center"], [class^="MetadataProfiles-center"],
+[class^="ImportLists-center"], [class^="EditCustomFormatModalContent-center"], [class^="Restrictions-center"],
+[class^="RootFolders-center"], [class^="Applications-center"] {
   border: none;
   background-color: #212121;
 }
 
-.QualityDefinition-bar-LlTjA:nth-child(odd), .QualityDefinition\/bar\/LlTjA:nth-child(odd),
-.QualityDefinition-track-34yQ-:nth-child(odd), .QualityDefinition\/track\/34yQ-:nth-child(odd) {
+[class^="QualityDefinition-bar"]:nth-child(odd), [class^="QualityDefinition-track"]:nth-child(odd) {
   background-color: #323232;
 }
 
-.QualityDefinition-handle-3wp-k, .QualityDefinition\/handle\/3wp-k {
+[class^="QualityDefinition-handle"] {
   background-color: #1f1f1f;
 }
 
-.QualityDefinition-qualityDefinition-Ouk7S, .QualityDefinition\/qualityDefinition\/Ouk7S {
+[class^="QualityDefinition-qualityDefinition"] {
   border-top: 1px solid #2a2c2d;
 }
 
-.DelayProfile-delayProfile-4BQz_, .DelayProfile\/delayProfile\/4BQz_ {
+[class^="DelayProfile-delayProfile"] {
   border-bottom: 1px solid #2a2c2d;
 }
 
-.QualityProfileItem-qualityProfileItem-VFp-W, .QualityProfileItem\/qualityProfileItem\/VFp-W,
-.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5, .QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5,
-.QualityProfileFormatItem-qualityProfileFormatItem-19XrK, .QualityProfileFormatItem\/qualityProfileFormatItem\/19XrK {
+[class^="QualityProfileItem-qualityProfileItem"], [class^="QualityProfileItemGroup-qualityProfileItemGroup"],
+[class^="QualityProfileFormatItem-qualityProfileFormatItem"] {
   background: #2a2c2d;
   border: 1px solid #2a2c2d;
 }
 
-.QualityProfileItemGroup-qualityProfileItemGroup-2U1l5.QualityProfileItemGroup-editGroups-2KzDp,
-.QualityProfileItemGroup\/qualityProfileItemGroup\/2U1l5.QualityProfileItemGroup\/editGroups\/2KzDp,
-.LanguageProfileItem-languageProfileItem-18XGg, .LanguageProfileItem\/languageProfileItem\/18XGg {
+[class^="QualityProfileItemGroup-qualityProfileItemGroup"][class*="QualityProfileItemGroup-editGroups"],
+[class^="LanguageProfileItem-languageProfileItem"] {
   background: #1f1f1f;
 }
 
-.DownloadProtocolItem-qualityProfileItem-VHS7E, .DownloadProtocolItem\/qualityProfileItem\/VHS7E {
+[class^="DownloadProtocolItem-qualityProfileItem"] {
   border: 0px solid #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
-.KeyValueListInputItem-itemContainer-2g1bS, .KeyValueListInputItem\/itemContainer\/2g1bS {
+[class^="KeyValueListInputItem-itemContainer"] {
   border-bottom: none;
 }
 
-.KeyValueListInputItem-keyInput-3YYEs, .KeyValueListInputItem\/keyInput\/3YYEs,
-.KeyValueListInputItem-valueInput-3zlQA, .KeyValueListInputItem\/valueInput\/3zlQA {
+[class^="KeyValueListInputItem-keyInput"], [class^="KeyValueListInputItem-valueInput"] {
   background: transparent;
   color: #dce2ec;
 }
 
 /* Updates */
-.Updates-info-19gvs, .Updates\/info\/19gvs {
+[class^="Updates-info"] {
   border-bottom: 1px solid #2a2c2d;
 }
 
 /* ======= UPDATED POP UP ======= */
-.AppUpdatedModalContent-changes-F4CGH, .AppUpdatedModalContent\/changes\/F4CGH {
+[class^="AppUpdatedModalContent-changes"] {
   border-bottom: 1px solid #2d2c2c;
 }
