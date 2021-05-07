@@ -38,7 +38,7 @@ body {
 }
 
 [class*="SeriesSearchInput-containerOpen"] [class^="SeriesSearchInput-seriesContainer"], 
-[class*="MovieSearchInput-containerOpe"] [class^="MovieSearchInput-movieContainer"], 
+[class*="MovieSearchInput-containerOpen"] [class^="MovieSearchInput-movieContainer"], 
 [class*="ArtistSearchInput-containerOpen"] [class^="ArtistSearchInput-artistContainer"] {
   border: 1px solid #2d2c2c;
   background-color: #2d2c2c;
@@ -81,11 +81,11 @@ body {
 }
 
 /* OVERVIEW VIEW */
-[class^="SeriesIndexOverview-link"], [class^="MovieIndexOverview-link"], [class^="ArtistIndexOverview-link"] {
+[class*="SeriesIndexOverview-link"], [class*="MovieIndexOverview-link"], [class*="ArtistIndexOverview-link"] {
   color: #dce2ec;
 }
 
-[class^="SeriesIndexOverview-link"]:hover, [class^="MovieIndexOverview-link"]:hover, [class^="ArtistIndexOverview-link"]:hover {
+[class*="SeriesIndexOverview-link"]:hover, [class*="MovieIndexOverview-link"]:hover, [class*="ArtistIndexOverview-link"]:hover {
   color: #dce2ec;
 }
 
@@ -176,7 +176,7 @@ body {
   color: #dce2ec;
 }
 
-[class*="Input-input"] {
+[class*=" Input-input"] {
   border: 0px solid #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
