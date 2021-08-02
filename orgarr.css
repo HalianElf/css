@@ -109,7 +109,7 @@ body {
   border-top: 1px solid #2d2c2c;
 }
 
-[class^="TableRow-row"]:hover {
+[class*="TableRow-row"]:hover {
   background-color: #2d2c2c;
 }
 
@@ -160,7 +160,7 @@ body {
   border-bottom: 1px solid #2d2c2c;
 }
 
-[class^="ModalFooter-modalFooter"] {
+[class*="ModalFooter-modalFooter"] {
   border-top: 1px solid #2d2c2c;
 }
 
@@ -207,6 +207,14 @@ body {
 }
 
 [class^="EnhancedSelectInput-options"]:hover {
+  background-color: #323232;
+}
+
+[class^="EnhancedSelectInputOption-option"] {
+  background-color: #2a2c2d;
+}
+
+[class^="EnhancedSelectInputOption-option"]:hover {
   background-color: #323232;
 }
 
