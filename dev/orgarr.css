@@ -240,7 +240,7 @@ body {
   background-color: #323232;
 }
 
-[class^="EpisodeDetailsModalContent-selectedTab"] {
+[class*=" EpisodeDetailsModalContent-selectedTab"] {
   border-color: #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
