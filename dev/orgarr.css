@@ -460,7 +460,8 @@ body {
 [class^="Indexers-center"], [class^="DownloadClients-center"], [class^="Notifications-center"],
 [class^="CustomFormats-center"], [class^="NetImports-center"], [class^="MetadataProfiles-center"],
 [class^="ImportLists-center"], [class^="EditCustomFormatModalContent-center"], [class^="Restrictions-center"],
-[class^="RootFolders-center"], [class^="Applications-center"], [class^="IndexerProxies-center"] {
+[class^="RootFolders-center"], [class^="Applications-center"], [class^="IndexerProxies-center"],
+[class^="IndexerProxies-center"] {
   border: none;
   background-color: #212121;
 }

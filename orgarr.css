@@ -240,7 +240,7 @@ body {
   background-color: #323232;
 }
 
-[class^="EpisodeDetailsModalContent-selectedTab"] {
+[class*=" EpisodeDetailsModalContent-selectedTab"] {
   border-color: #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
@@ -288,7 +288,7 @@ body {
   color: #dce2ec;
 }
 
-[class^="ImportSeriesSelectSeries-button"], [class^="ImportMovieSelectMovie-button-1dL1Z"] {
+[class^="ImportSeriesSelectSeries-button"], [class^="ImportMovieSelectMovie-button"] {
   background-color: #2a2c2d;
   border: 1px solid #2a2c2d;
 }
@@ -320,11 +320,11 @@ body {
 }
 
 /* ======= DISCOVER ======= */
-[class^="DiscoverMovieOverview-link"] {
+[class*="DiscoverMovieOverview-link"] {
   color: #dce2ec;
 }
 
-[class^="DiscoverMovieOverview-link"]:hover {
+[class*="DiscoverMovieOverview-link"]:hover {
   color: #ffffff;
 }
 
@@ -360,7 +360,7 @@ body {
   background-color: #2a2c2d;
 }
 
-[class^="CalendarDay-isToday"] {
+[class*="CalendarDay-isToday"] {
   background-color: #212121;
 }
 
@@ -460,7 +460,8 @@ body {
 [class^="Indexers-center"], [class^="DownloadClients-center"], [class^="Notifications-center"],
 [class^="CustomFormats-center"], [class^="NetImports-center"], [class^="MetadataProfiles-center"],
 [class^="ImportLists-center"], [class^="EditCustomFormatModalContent-center"], [class^="Restrictions-center"],
-[class^="RootFolders-center"], [class^="Applications-center"] {
+[class^="RootFolders-center"], [class^="Applications-center"], [class^="IndexerProxies-center"],
+[class^="IndexerProxies-center"] {
   border: none;
   background-color: #212121;
 }
