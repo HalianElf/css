@@ -40,7 +40,7 @@ body {
 [class*="SeriesSearchInput-containerOpen"] [class^="SeriesSearchInput-seriesContainer"], 
 [class*="MovieSearchInput-containerOpen"] [class^="MovieSearchInput-movieContainer"], 
 [class*="ArtistSearchInput-containerOpen"] [class^="ArtistSearchInput-artistContainer"] {
-  border: 1px solid #2d2c2c;
+  border-color: #2d2c2c;
   background-color: #2d2c2c;
   color: #dce2ec;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 [class^="PageJumpBarItem-jumpBarItem"] {
-  border: 1px solid #2d2c2c
+  border-color: #2d2c2c
 }
 
 [class^="PageJumpBarItem-jumpBarItem"]:last-child {
@@ -91,7 +91,7 @@ body {
 
 /* ======= MEDIA ITEM ======= */
 [class^="SeriesDetailsSeason-season"], [class^="ArtistDetailsSeason-albumType"], [class^="AlbumDetailsMedium-medium"] {
-  border: 1px solid #1f1f1f;
+  border-color: #1f1f1f;
   background-color: #1f1f1f;
 }
 
@@ -124,7 +124,7 @@ body {
 
 [class^="ExtraFileTable-container"] {
   background-color: #1f1f1f;
-  border: 1px solid #1f1f1f;
+  border-color: #1f1f1f;
 }
 
 /* ======= POP-OUT WINDOWS ======= */
@@ -196,13 +196,13 @@ body {
 }
 
 [class^="EnhancedSelectInput-enhancedSelect"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
   background-color: #2a2c2d;
   color: #dce2ec;
 }
 
 [class^="EnhancedSelectInput-options"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
   background-color: #2a2c2d;
 }
 
@@ -232,7 +232,7 @@ body {
 }
 
 [class^="AutoSuggestInput-suggestionsContainerOpen"] [class^="AutoSuggestInput-suggestionsContainer"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
   background-color: #2a2c2d;
 }
 
@@ -248,12 +248,12 @@ body {
 
 [class^="TableOptionsColumn-column"] {
   background-color: #212121;
-  border: 1px solid #212121;
+  border-color: #212121;
 }
 
 [class*="CheckInput-input"] {
   background-color: #323232;
-  border: 1px solid #323232;
+  border-color: #323232;
 }
 
 [class^="OrganizePreviewRow-row"] {
@@ -268,7 +268,7 @@ body {
 /* ======= ADD NEW ======= */
 [class^="AddNewMovie-searchIconContainer"], [class^="AddNewSeries-searchIconContainer"],
 [class^="AddNewArtist-searchIconContainer"], [class^="AddNewItem-searchIconContainer"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
   background-color: #2a2c2d;
 }
 
@@ -290,11 +290,11 @@ body {
 
 [class^="ImportSeriesSelectSeries-button"], [class^="ImportMovieSelectMovie-button"] {
   background-color: #2a2c2d;
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
 }
 
 [class^="ImportSeriesSelectSeries-content"], [class^="ImportMovieSelectMovie-content"] {
-  border: 1px solid #1f1f1f;
+  border-color: #1f1f1f;
   background-color: #1f1f1f;
 }
 
@@ -303,12 +303,12 @@ body {
 }
 
 [class^="ImportSeriesSelectSeries-searchIconContainer"], [class^="ImportMovieSelectMovie-searchIconContainer"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
   background-color: #2a2c2d;
 }
 
 [class^="SelectSeasonRow-season"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
 }
 
 [class^="CustomFilter-customFilter"]:hover {
@@ -331,7 +331,7 @@ body {
 /* ======= SEASON PASS/ALBUM STUDIO ======= */
 [class^="SeasonPassSeason-season"], [class^="AlbumStudioAlbum-album"] {
   background-color: #323232;
-  border: 1px solid #323232;
+  border-color: #323232;
   color: #dce2ec;
 }
 
@@ -424,7 +424,7 @@ body {
 
 /* MEDIA MANAGEMENT */
 [class^="NamingOption-option"] {
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
 }
 
 [class^="NamingOption-token"] {
@@ -485,7 +485,7 @@ body {
 [class^="QualityProfileItem-qualityProfileItem"], [class^="QualityProfileItemGroup-qualityProfileItemGroup"],
 [class^="QualityProfileFormatItem-qualityProfileFormatItem"] {
   background: #2a2c2d;
-  border: 1px solid #2a2c2d;
+  border-color: #2a2c2d;
 }
 
 [class^="QualityProfileItemGroup-qualityProfileItemGroup"][class*="QualityProfileItemGroup-editGroups"],
