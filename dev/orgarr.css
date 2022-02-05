@@ -29,11 +29,11 @@ body {
   color: #96a2b4 !important;
 }
 
-[class^="OverlayScroller-thumb"], [class^="Scroller-scroller"]::-webkit-scrollbar-thumb {
+[class^="OverlayScroller-thumb"], [class*="Scroller-scroller"]::-webkit-scrollbar-thumb {
   background-color: #2d2c2c;
 }
 
-[class^="OverlayScroller-thumb"]:hover, [class^="Scroller-scroller"]::-webkit-scrollbar-thumb:hover {
+[class^="OverlayScroller-thumb"]:hover, [class*="Scroller-scroller"]::-webkit-scrollbar-thumb:hover {
   background-color: #323232;
 }
 
