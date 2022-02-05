@@ -451,7 +451,7 @@ body {
 }
 
 [class^="QualityProfiles-addQualityProfile"], [class^="LanguageProfiles-addLanguageProfile"],
-[class^="ReleaseProfiles-addReleaseProfile"], [class^="Indexers-addIndexer"], [class^="AppProfiles-addAppProfile"],
+[class^="ReleaseProfiles-addReleaseProfile"], [class^="Indexers-addIndexer"],
 [class^="DownloadClients-addDownloadClient"], [class^="Notifications-addNotification"] {
   background-color: #212121;
 }
@@ -461,7 +461,7 @@ body {
 [class^="CustomFormats-center"], [class^="NetImports-center"], [class^="MetadataProfiles-center"],
 [class^="ImportLists-center"], [class^="EditCustomFormatModalContent-center"], [class^="Restrictions-center"],
 [class^="RootFolders-center"], [class^="Applications-center"], [class^="IndexerProxies-center"],
-[class^="IndexerProxies-center"] {
+[class^="IndexerProxies-center"], [class^="AppProfiles-center"] {
   border: none;
   background-color: #212121;
 }
