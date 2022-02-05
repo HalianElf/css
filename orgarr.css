@@ -451,7 +451,7 @@ body {
 }
 
 [class^="QualityProfiles-addQualityProfile"], [class^="LanguageProfiles-addLanguageProfile"],
-[class^="ReleaseProfiles-addReleaseProfile"], [class^="Indexers-addIndexer"],
+[class^="ReleaseProfiles-addReleaseProfile"], [class^="Indexers-addIndexer"], [class^="AppProfiles-addAppProfile"],
 [class^="DownloadClients-addDownloadClient"], [class^="Notifications-addNotification"] {
   background-color: #212121;
 }
