@@ -644,7 +644,11 @@ tr.list:nth-child(odd), tr.list:nth-child(even) {
 }
 .with-nav-tabs.panel-default .nav-tabs>li.active>a[data-v-2ac3a533], 
 .with-nav-tabs.panel-default .nav-tabs>li.active>a[data-v-2ac3a533]:focus, 
-.with-nav-tabs.panel-default .nav-tabs>li.active>a[data-v-2ac3a533]:hover,
+.with-nav-tabs.panel-default .nav-tabs>li.active>a[data-v-2ac3a533]:hover {
+    border-color: var(--color-dark5);
+    color: var(--color-light2);
+    background-color: var(--color-dark3);
+}
 .with-nav-tabs.panel-default .nav-tabs > .open > a[data-v-6072cc1c],
 .with-nav-tabs.panel-default .nav-tabs > .open > a[data-v-6072cc1c]:hover,
 .with-nav-tabs.panel-default .nav-tabs > .open > a[data-v-6072cc1c]:focus,
