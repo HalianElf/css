@@ -49,6 +49,31 @@ body {
   border-bottom: solid 1px #323232;
 }
 
+.page {
+  background-color: #1b1a1a;
+}
+
+/* ============== LOGIN PAGE ============== */
+.panel-body {
+  background-color: #1f1f1f;
+}
+
+.form-input {
+  background-color: #323232;
+  border-color: #323232;
+  color: #dce2ec;
+}
+
+.button {
+  background-color: #d61212;
+  border-color: #d61212;
+}
+
+.button:hover {
+  background-color: #c75252;
+  border-color: #c75252;
+}
+
 /* ======= MOVIES/SERIES/LIBRARY ======= */
 [class^="SeriesIndexPoster-controls"], [class^="ArtistIndexPoster-controls"], [class^="MovieIndexPoster-controls"] {
   background-color: #232323;
@@ -135,6 +160,10 @@ body {
 [class^="Popover-title"] {
   border-bottom: 1px solid #2a2c2d;
   background-color: #212121;
+}
+
+[class^="Popover-body"] {
+  background-color: #323232;
 }
 
 [class^="Tooltip-tooltip-"][class*="Tooltip-default"] {
@@ -346,7 +375,7 @@ body {
 }
 
 [class^="AlbumStudioAlbum-missingWanted"] {
-	background-color: #ff7676;
+    background-color: #ff7676;
   color: #323232;
 }
 
